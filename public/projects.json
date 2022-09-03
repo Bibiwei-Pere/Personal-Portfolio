@@ -2,32 +2,32 @@
   "result": [
     {
       "_id": "62847a1a0d368dccd75e5154",
-      "name": "Akram Sakib",
+      "name": "Bibiwei Pere",
       "featureimg": "https://i.ibb.co/Zmn0QT0/Akram-Sakib-Home.png",
       "category": ["portfolio", "business", "blog"],
-      "description": "The website is a personal portfolio. Created by Akram Sakib. The technology used in the website is React, Tailwind CSS, and lots of packages. Here you can browse through my projects, my resume, services, and about me, or you can contact me directly.",
+      "description": "My personal portfolio website created with React, Tailwind CSS, and lots of packages. Here you can browse through my projects, my resume, services, and about me, or you can contact me directly.",
       "screenshots": ["https://i.ibb.co/Zmn0QT0/Akram-Sakib-Home.png"],
       "tags": ["React", "Tailwind"],
-      "projectlink": "https://akram-sakib.netlify.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/personal-portfolio",
+      "projectlink": "https://bibiweipere.netlify.app/",
+      "frontendlink": "https://github.com/Bibiwei-Pere/Personal-Portfolio",
       "backendlink": "#",
       "__v": 0,
       "order": 1
     },
     {
       "_id": "6284ffeb6c97a9c1a61b910f",
-      "name": "Clean The City",
+      "name": "Crunches",
       "featureimg": "https://i.ibb.co/zFVHbkS/Clean-Your-Home-Today.jpg",
       "category": ["business"],
-      "description": "It is a business website. Website technology includes React, Firebase, Tailwind CSS, and lots of packages. The site has a banner section, a section for controlling services, a section for booking services, an overview section, a countdown section, a testimonial section, and here is a dashboard, a review section, and a make admin section.",
+      "description": "This is a business website for an eatery. Website technology used are HTML, CSS, JavaScript and lots of other animation packages. The site is basically created for customers to see, as well as contact the management for any of the desired item.",
       "screenshots": [
         "https://i.ibb.co/YtmqnYp/Clean-Your-Home-Today-Service.png",
         "https://i.ibb.co/VHMfJ3T/Clean-Your-Home-Today-About.png",
         "https://i.ibb.co/KbxCQXP/Clean-Your-Home-Today-login.png"
       ],
-      "tags": ["React", "Tailwind", "Firebase", "Express"],
-      "projectlink": "https://city-clean-8d2bd.web.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/city-clean",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "projectlink": "https://crunches.netlify.app/",
+      "frontendlink": "https://github.com/Bibiwei-Pere/Crunches",
       "backendlink": "#",
       "__v": 0,
       "order": 2
@@ -35,52 +35,18 @@
     {
       "_id": "62851207dad4af8316365192",
       "order": 3,
-      "name": "Animated Portfolio",
+      "name": "Ninestudios",
       "featureimg": "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
       "category": ["portfolio"],
-      "description": "It is a portfolio website. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, Sass, and many other animation packages. By the way, this site is not a responsive website.",
+      "description": "This is a business website for a photography studio. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, styled-components and many other packages.",
       "screenshots": [
         "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
         "https://i.ibb.co/G7Trpyz/Front-End-Developer-Java-Script-Expert-Freelancer-About.png",
         "https://i.ibb.co/hgZjs4H/Front-End-Developer-Java-Script-Expert-Freelancer-Contact.png"
       ],
       "tags": ["React", "Sass"],
-      "projectlink": "https://high-animation-portfolio.netlify.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/portfolio-website",
-      "backendlink": "#",
-      "__v": 0
-    },
-    {
-      "_id": "62851b8adad4af83163651a0",
-      "order": 4,
-      "name": "Red Onion Foods",
-      "featureimg": "https://i.ibb.co/DgZ9VXF/Red-Onion-home.jpg",
-      "category": ["business", "e-commerce"],
-      "description": "The website belongs to a business. The website has a search banner section, filter section, and a why choose us section, as well as a detailed page for every single meal. the tech. React, Firebase, and other tools are used to build the website. The user can watch their favorite food and see the details of the meals after logging in.",
-      "screenshots": [
-        "https://i.ibb.co/m9dRJFQ/Red-Onion-Meal.jpg",
-        "https://i.ibb.co/DL791Ld/Red-Onion-why-choose-us.jpg"
-      ],
-      "tags": ["React", "Sass"],
-      "projectlink": "https://red-onion-c1008.web.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/red-onion",
-      "backendlink": "#",
-      "__v": 0
-    },
-    {
-      "_id": "6285cccce47c31ee1858bba7",
-      "order": 5,
-      "name": "Creative Agency",
-      "featureimg": "https://i.ibb.co/1QFXZxB/Creative-Agency-Home.jpg",
-      "category": ["business"],
-      "description": "It's a business website. There is a search banner section on the website, along with a section about our services, and a section about some of our work and client feedback. The website is built using NextJs, Bootstrap, and other tools.",
-      "screenshots": [
-        "https://i.ibb.co/1QFXZxB/Creative-Agency-Home.jpg",
-        "https://i.ibb.co/DL791Ld/Red-Onion-why-choose-us.jpg"
-      ],
-      "tags": ["NextJs", "Bootstrap"],
-      "projectlink": "https://creative-agency-tan.vercel.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/creative-agency",
+      "projectlink": "https://nine-studios.netlify.app/",
+      "frontendlink": "https://github.com/Bibiwei-Pere/Ninestudios",
       "backendlink": "#",
       "__v": 0
     },
