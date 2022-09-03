@@ -1,0 +1,98 @@
+.project_parent {
+  padding: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.project_cardtitle {
+  display: flex;
+  justify-content: space-between;
+  width: 60vmin;
+}
+
+.project_projecttitle{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.chakra_stack {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.stack {
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 100%;
+  font-weight: 600;
+  line-height: 1.2;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  font-size: 0.75rem;
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+  border-radius: 0.375rem;
+  background: #c4f1f9;
+  color: #086f83;
+}
+
+.inside_stack {
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chakra_stack > :not(style) ~ :not(style) {
+  margin-top: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  margin-inline-start: 0.5rem;
+}
+
+.project_imageandsocial{
+    display: flex;
+    align-items: center;
+}
+
+.project_cardbox{
+    border-color: rgb(240, 240, 240); position: relative;
+    height: 35vmin;
+    width: 60vmin;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border: 2px solid #000;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.project_socialicon{
+    color: rgb(112, 112, 112);
+    border-color: rgb(112, 112, 112);
+    border: 2px solid #000;
+    padding: 0.4rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem 0 1rem 1rem;
+    cursor: pointer;
+}
+
+.project_cardbottom{
+        width: 60vmin;
+}
+
+.project_description{
+    font-size: 14px;
+}

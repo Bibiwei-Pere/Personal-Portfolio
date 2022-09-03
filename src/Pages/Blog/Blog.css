@@ -1,0 +1,47 @@
+.single-blog:hover .blog-text {
+    bottom: 0;
+}
+
+.blog-image {
+    display: none;
+}
+
+.blog-text {
+    transition: bottom .4s linear;
+    display: block;
+    width: 95%;
+    height: 93%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -300%;
+    margin: auto auto;
+    padding: 1rem;
+}
+
+/* Customize Carousel Dots */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots li button {
+    display: block;
+    width: .75rem;
+    height: .75rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: hsl(239, 84%, 90%);
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #6366f1;
+}
