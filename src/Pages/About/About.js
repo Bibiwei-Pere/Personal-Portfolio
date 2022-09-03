@@ -7,29 +7,23 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Akram Sakib | About</title>
+        <title>Bibiwei Pere | About</title>
       </Helmet>
       <section className="text-gray-700 px-6 body-font dark:text-white">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-white">
-              Web Application{' '}
-              <span className="text-indigo-600 dark:text-indigo-500">
-                {' '}
-                Developer
-              </span>
-            </h1>
-            <p className="mb-8 leading-relaxed">
-              🍇 ⋆ 🍒 🎀 𝐻𝑒𝓎 𝓉𝒽𝑒𝓇𝑒❣ 𝐼'𝓂 𝒶{' '}
-              <del>𝒹𝓇𝒶𝑔💙𝓃 𝓁🍑𝓈𝓉 𝒾𝓃 𝒽𝓊𝓂𝒶𝓃 𝓌❤𝓇𝓁𝒹</del> 𝒞🍬𝓂𝓅𝓊𝓉𝑒𝓇 𝒮𝒸𝒾𝑒𝓃𝒸𝑒 𝒟𝒾𝓅𝓁❀𝓂𝒶
-              𝐸𝓃𝑔𝒾𝓃𝑒𝑒𝓇'𝓈 𝓈𝓉𝓊𝒹𝑒𝓃𝓉 𝒶𝓉 𝒟𝒽𝒶𝓀𝒶 𝒫💮𝓁𝓎𝓉𝑒𝒸𝒽𝓃𝒾𝒸 𝐼𝓃𝓈𝓉𝒾𝓉𝓊𝓉𝑒. 🎀 🍒 ⋆ 🍇. 🍰
-              🎀 𝒜𝓈 𝒶 𝓊𝓈𝑒𝓇 𝒾𝓃𝓉𝑒𝓇𝒻𝒶𝒸𝑒 𝒹𝑒𝓈𝒾𝑔𝓃𝑒𝓇 𝒻🍬𝓇 𝒸☯𝓂𝓅𝓁𝑒𝓍 𝒾𝓈𝓈𝓊𝑒𝓈, 𝐼 𝑒𝓃�🌺𝓎
-              �𝓉𝓇𝒶𝓃𝓈𝒻☯𝓇𝓂𝒾𝓃𝑔 𝓉𝒽𝑒𝓂 𝒾𝓃𝓉🌞 𝓈𝒾𝓂𝓅𝓁𝑒, 𝓈𝓉𝓎𝓁𝒾𝓈𝒽 𝒾𝓃𝓉𝑒𝓇𝒻𝒶𝒸𝑒𝓈. 𝐿❀𝑔𝒾𝒸 �𝓃𝒹
-              𝓈𝓉𝓇𝓊𝒸𝓉𝓊𝓇𝑒 𝓂𝒶𝓉𝓉𝑒𝓇 𝓉🍩 𝓂𝑒, 𝓈💞 𝐼 𝒶𝓂 𝒶𝓁𝓌𝒶𝓎𝓈 𝓈𝓉𝓇𝒾𝓋𝒾𝓃𝑔 𝓉💮 𝓌𝓇𝒾𝓉𝑒
-              𝑒𝓁𝑒𝑔𝒶𝓃𝓉, 𝑒𝒻𝒻𝒾𝒸𝒾𝑒𝓃𝓉, 𝒶𝓃𝒹 𝓌𝑒𝓁𝓁-𝓈𝓉𝓇𝓊𝒸𝓉𝓊𝓇𝑒𝒹 𝒸🌸𝒹𝑒, 𝓇𝑒𝑔𝒶𝓇𝒹𝓁𝑒𝓈𝓈 ❁𝒻
-              𝓌𝒽𝑒𝓉𝒽𝑒𝓇 𝒾𝓉 𝒾𝓈 𝐻𝒯𝑀𝐿, 𝒞𝒮𝒮, ❀𝓇 𝒥𝒮. 𝐼'𝓂 𝒻𝓇𝑒𝑒 𝓉🍪 𝒹𝑒𝓋𝑒𝓁♡𝓅 𝒻𝓊𝓁𝓁-𝓈𝓉𝒶𝒸𝓀
-              𝓌𝑒𝒷𝓈𝒾𝓉𝑒𝓈 𝒶𝓈 𝓌𝑒𝓁𝓁. 🎀 🍰
-            </p>
+            <h2 className="text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+            Web Application
+            <span className="text-indigo-600 dark:text-indigo-500">
+              Developer
+            </span>
+          </h2>
+          <p className="mt-3 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+            A passionate individual who always thrive to work on end to end
+            products which develop sustainable and scalable social and technical
+            systems to create impact. I’m currently learning JavaScript more
+            advance
+          </p>
             <div className="flex justify-center">
               <a
                 rel="noreferrer"
@@ -63,12 +57,12 @@ const About = () => {
             <ul>
               <li>
                 <div className="content">
-                  <h3 className="dark:text-white">Junior Dakhil Certificate</h3>
+                  <h3 className="dark:text-white">Primary School Certificate</h3>
                   <p className="dark:text-gray-400">
-                    Fulmati Islamia Alim Madrasah
+                    Burutu Primary School
                   </p>
                   <p className="dark:text-gray-400">
-                    Completed JDC From Fulmati Madrasah
+                    Completed PSC From Burutu Primary School
                   </p>
                 </div>
                 <div
@@ -78,7 +72,7 @@ const About = () => {
                     color: '#263859',
                   }}
                 >
-                  <h4 className="dark:text-white">Jan - Dec 2018</h4>
+                  <h4 className="dark:text-white">2004 - 2009</h4>
                 </div>
               </li>
               <li>
@@ -87,10 +81,10 @@ const About = () => {
                     Secondary School Certificate
                   </h3>
                   <p className="dark:text-gray-400">
-                    Fulmati Islamia Alim Madrasah
+                    Burutu Grammar School
                   </p>
                   <p className="dark:text-gray-400">
-                    Completed SSC From Fulmati Madrasah
+                    Completed SSC From Burutu Grammar School
                   </p>
                 </div>
                 <div
@@ -100,17 +94,17 @@ const About = () => {
                     color: '#263859',
                   }}
                 >
-                  <h4 className="dark:text-white">Jan - Fab 2019 - 2020</h4>
+                  <h4 className="dark:text-white">2009 - 2015</h4>
                 </div>
               </li>
               <li>
                 <div className="content">
-                  <h3 className="dark:text-white">Computer Technology</h3>
+                  <h3 className="dark:text-white">Medicine and Surgery</h3>
                   <p className="dark:text-gray-400">
-                    Dhaka Polytechnic Institute
+                    Niger Delta University
                   </p>
                   <p className="dark:text-gray-400">
-                    Currently I am studying in Dhaka Polytechnic Institute
+                    I'm currently studying in Niger Delta University
                   </p>
                 </div>
                 <div
@@ -120,7 +114,7 @@ const About = () => {
                     color: '#263859',
                   }}
                 >
-                  <h4 className="dark:text-white">Sep - May 2022</h4>
+                  <h4 className="dark:text-white">2016 - 2022</h4>
                 </div>
               </li>
               <div style={{ clear: 'both' }}></div>
@@ -140,18 +134,27 @@ const About = () => {
             </div>
             <div className="my-8 w-4/6">
               <p>
-                For more than 2 years our experts have been accomplishing enough
+                For about a year now, have been accomplishing enough skills
                 with modern Web Development, new generation web and app
                 programming language.
               </p>
             </div>
             <div className="progress_bar">
               <div className="my-4">
-                <div className="mb-1 text-base font-medium">React</div>
+                <div className="mb-1 text-base font-medium">HTML</div>
                 <div className="w-full h-4 bg-transparent rounded-full">
                   <div
                     className="h-4 bg-indigo-600 rounded-full"
-                    style={{ width: '70%' }}
+                    style={{ width: '100%' }}
+                  ></div>
+                </div>
+              </div>
+              <div className="my-8">
+                <div className="mb-1 text-base font-medium">CSS</div>
+                <div className="w-full h-4 bg-transparent rounded-full">
+                  <div
+                    className="h-4 bg-indigo-600 rounded-full"
+                    style={{ width: '100%' }}
                   ></div>
                 </div>
               </div>
@@ -165,11 +168,29 @@ const About = () => {
                 </div>
               </div>
               <div className="my-8">
-                <div className="mb-1 text-base font-medium">Backend</div>
+                <div className="mb-1 text-base font-medium">React</div>
                 <div className="w-full h-4 bg-transparent rounded-full">
                   <div
                     className="h-4 bg-indigo-600 rounded-full"
-                    style={{ width: '60%' }}
+                    style={{ width: '100%' }}
+                  ></div>
+                </div>
+              </div>
+              <div className="my-8">
+                <div className="mb-1 text-base font-medium">Styled Components</div>
+                <div className="w-full h-4 bg-transparent rounded-full">
+                  <div
+                    className="h-4 bg-indigo-600 rounded-full"
+                    style={{ width: '100%' }}
+                  ></div>
+                </div>
+              </div>
+              <div className="my-8">
+                <div className="mb-1 text-base font-medium">Tailwind CSS</div>
+                <div className="w-full h-4 bg-transparent rounded-full">
+                  <div
+                    className="h-4 bg-indigo-600 rounded-full"
+                    style={{ width: '80%' }}
                   ></div>
                 </div>
               </div>
