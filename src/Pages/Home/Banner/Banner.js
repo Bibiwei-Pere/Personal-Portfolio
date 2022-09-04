@@ -21,7 +21,7 @@ const Banner = () => {
   });
 
   return (
-    <section ref={ref} className="container px-6 mx-auto relative pb-20">
+    <section ref={ref} className="container px-6 mx-auto relative pb-10">
       <div className="flex flex-col lg:flex-row pt-8 md:pt-16 lg:pt-20 px-6 lg:justify-between">
           <h2 className="mb-4 text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
