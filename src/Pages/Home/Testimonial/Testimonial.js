@@ -82,16 +82,10 @@ const Testimonial = () => {
 
   return (
     <section className="container px-6 mx-auto pb-20" ref={ref}>
-      <motion.h2
-        initial="hidden"
-        animate={viewDiv && 'visible'}
-        variants={TestimonialTextAnimation}
-        className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none"
-      >
+      <h2 className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
         Client
         <span className="text-indigo-600 dark:text-indigo-500"> Review</span>
-      </motion.h2>
-
+      
       <motion.div
         className="px-6 "
         initial={'hidden'}
