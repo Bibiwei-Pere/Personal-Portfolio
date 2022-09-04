@@ -3,9 +3,7 @@ import './Banner.css';
 import Lottie from 'react-lottie';
 import developer from './../../../Assets/SvgAnimations/developer.json';
 import { motion, useAnimation } from 'framer-motion';
-import {
-  bannerRightVariant,
-} from '../../../Animations/Animations';
+import { bannerRightVariant } from '../../../Animations/Animations';
 import { useInView } from 'react-intersection-observer';
 
 const Banner = () => {
