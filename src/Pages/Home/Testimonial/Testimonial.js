@@ -82,6 +82,9 @@ const Testimonial = () => {
         Client
         <span className="text-indigo-600 dark:text-indigo-500"> Review</span>
       </h2>
+      <p className="text-xl text-left dark:text-gray-400">
+      Client satisfaction is our main priority. We always welcome the positive feedback we receive from our clients. Here’s what they’re saying about us.
+      </p>
       <div className="px-6">
         <Slider {...settings_1}>
           {testimonial.map((review) => (
