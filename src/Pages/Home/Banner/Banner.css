@@ -16,7 +16,7 @@
     transition: transform 0.5s;
 }
 
-.social-links a .fa-brands {
+.social-links a .fa-brands .fa {
     font-size: 20px;
     line-height: 50px;
     position: relative;
