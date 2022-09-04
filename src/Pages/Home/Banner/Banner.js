@@ -89,9 +89,9 @@ const Banner = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="bibiweijnr@gmail.com"
+                href="www.bibiweijnr@gmail.com"
               >
-                <i className="fi-brands fi-mail"></i>
+                <i className="fa-brands fa-envelope"></i>
               </a>
             </div>
             <button className="rounded w-24 bg-indigo-700 hover:bg-indigo-800 py-2 px-4 text-white">
