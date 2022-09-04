@@ -5,7 +5,6 @@ import service3 from './../../../Assets/SvgAnimations/service3.json';
 import { motion, useAnimation } from 'framer-motion';
 import Lottie from 'react-lottie';
 import { useInView } from 'react-intersection-observer';
-import { serviceTextAnimation } from '../../../Animations/Animations';
 import { Link } from 'react-router-dom';
 
 const servicesData = [
@@ -36,7 +35,7 @@ const servicesData = [
   },
   {
     id: 2,
-    title: 'BACKEND DEVELOPER',
+    title: 'RESPONSIVE WEB DESIGN',
     lottieOptions: {
       loop: true,
       autoplay: true,
@@ -46,8 +45,8 @@ const servicesData = [
       },
     },
     description:
-      'We provide backend development for various web and mobile apps.our back-end development team will provide you the best service to achieve your goals.',
-    serviceAnimation: {
+      'I develop responsive website in both large and small or mobile screen with top notch UI/UX designs.',    
+      serviceAnimation: {
       hidden: {
         x: '-100vw',
         opacity: 0,
@@ -61,7 +60,7 @@ const servicesData = [
   },
   {
     id: 3,
-    title: 'FULL STACK DEVELOPER',
+    title: 'BACKEND DEVELOPER',
     lottieOptions: {
       loop: true,
       autoplay: true,
@@ -71,8 +70,8 @@ const servicesData = [
       },
     },
     description:
-      'Be it Web application services or API development in any domain, our team of dedicated developers has expertise in delivering power-packed solutions.',
-    serviceAnimation: {
+      'I also design backend development for various web and mobile apps. I always ensure i provide you the best service to achieve your goals.',
+      serviceAnimation: {
       hidden: {
         x: '-100vw',
         opacity: 0,
@@ -107,15 +106,9 @@ const Services = () => {
 
   return (
     <section className="container px-6 mx-auto pb-20">
-      <motion.h2
-        initial="hidden"
-        animate={viewDiv && 'visible'}
-        variants={serviceTextAnimation}
-        className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none"
-      >
+      <h2 className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
         Our
         <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
-      </motion.h2>
       <div
         className="flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-stretch lg:items-stretch gap-x-8"
         ref={ref}
