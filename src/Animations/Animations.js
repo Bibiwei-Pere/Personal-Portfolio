@@ -13,18 +13,6 @@ export const navAnimationLogo = {
 
 // Banner Animations
 
-export const bannerLeftVariant = {
-  hidden: {
-    x: "-100vw",
-    opacity: 0,
-  },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: { duration: 1.5, delay: 1.5, type: "spring" },
-  },
-};
-
 export const bannerRightVariant = {
   hidden: {
     x: "100vw",
@@ -38,18 +26,6 @@ export const bannerRightVariant = {
 };
 
 // Services Animations
-
-export const serviceTextAnimation = {
-  hidden: {
-    y: "-3vw",
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { duration: 1.5, delay: 1.5, type: "spring" },
-  },
-};
 
 export const serviceAnimation = {
   hidden: {
@@ -89,30 +65,6 @@ export const TestimonialAnimation = {
 };
 
 /* Project Animation */
-
-export const ProjectHeadingText = {
-  hidden: {
-    y: "-3vw",
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { duration: 1.5, delay: 1, type: "spring" },
-  },
-};
-
-export const ProjectSubHeadingText = {
-  hidden: {
-    y: "3vw",
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { duration: 1.5, delay: 1, type: "spring" },
-  },
-};
 
 export const AllProjectsAnimation = {
   hidden: {
