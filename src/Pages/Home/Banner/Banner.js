@@ -4,7 +4,6 @@ import Lottie from 'react-lottie';
 import developer from './../../../Assets/SvgAnimations/developer.json';
 import { motion, useAnimation } from 'framer-motion';
 import {
-  bannerLeftVariant,
   bannerRightVariant,
 } from '../../../Animations/Animations';
 import { useInView } from 'react-intersection-observer';
@@ -40,15 +39,9 @@ const Banner = () => {
   return (
     <section ref={ref} className="container px-6 mx-auto relative">
       <div className="flex flex-col lg:flex-row pt-8 md:pt-16 lg:pt-20 px-6 lg:justify-between">
-        <motion.div
-          initial="hidden"
-          animate={viewDiv && 'visible'}
-          variants={bannerLeftVariant}
-        >
           <h2 className="text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
             <span className="text-indigo-600 dark:text-indigo-500">
-              {' '}
               Developer
             </span>
           </h2>
@@ -102,7 +95,6 @@ const Banner = () => {
               </a>
             </div>
             <button className="rounded w-24 bg-indigo-700 hover:bg-indigo-800 py-2 px-4 text-white">
-              {' '}
               <a
                 rel="noreferrer"
                 target={'_blank'}
@@ -112,7 +104,6 @@ const Banner = () => {
               </a>
             </button>
           </div>
-        </motion.div>
         <motion.div
           initial="hidden"
           animate={viewDiv && 'visible'}
