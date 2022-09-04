@@ -2,10 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import Axios from 'axios';
 import { motion, useAnimation } from 'framer-motion';
-import {
-  TestimonialAnimation,
-  TestimonialTextAnimation,
-} from '../../../Animations/Animations';
+import { TestimonialAnimation } from '../../../Animations/Animations';
 import { useInView } from 'react-intersection-observer';
 import ReactStars from 'react-rating-stars-component';
 
@@ -85,7 +82,7 @@ const Testimonial = () => {
       <h2 className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
         Client
         <span className="text-indigo-600 dark:text-indigo-500"> Review</span>
-      
+      </h2>
       <motion.div
         className="px-6 "
         initial={'hidden'}
