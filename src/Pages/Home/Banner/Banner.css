@@ -24,6 +24,14 @@
     transition: color 0.5s;
 }
 
+.social-links a .fa-solid {
+    font-size: 20px;
+    line-height: 50px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+
 .social-links a::after {
   content: '';
   width: 100%;
