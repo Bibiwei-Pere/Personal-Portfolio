@@ -21,7 +21,7 @@ export const bannerRightVariant = {
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.5, delay: 0.5, type: "spring" },
+    transition: { duration: 1, delay: 1, type: "spring" },
   },
 };
 
@@ -29,7 +29,7 @@ export const bannerRightVariant = {
 
 export const serviceAnimation = {
   hidden: {
-    x: "-100vw",
+    x: "100vw",
     opacity: 0,
   },
   visible: {
