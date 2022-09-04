@@ -105,8 +105,8 @@ const Services = () => {
   }, [inView, animation]);
 
   return (
-    <section className="container px-6 mx-auto py-20">
-      <h2 className="mb-4 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+    <section className="container px-6 mx-auto pb-20">
+      <h2 className="my-12 mb-4 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
           Our
           <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
       </h2>
