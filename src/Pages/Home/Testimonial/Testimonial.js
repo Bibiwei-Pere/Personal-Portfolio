@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import Axios from 'axios';
 import { motion, useAnimation } from 'framer-motion';
-import { TestimonialAnimation } from '../../../Animations/Animations';
 import { useInView } from 'react-intersection-observer';
 import ReactStars from 'react-rating-stars-component';
 
@@ -83,12 +82,7 @@ const Testimonial = () => {
         Client
         <span className="text-indigo-600 dark:text-indigo-500"> Review</span>
       </h2>
-      <motion.div
-        className="px-6 "
-        initial={'hidden'}
-        animate={viewDiv && 'visible'}
-        variants={TestimonialAnimation}
-      >
+      <div className="px-6">
         <Slider {...settings_1}>
           {testimonial.map((review) => (
             <div key={review.id}>
@@ -122,7 +116,7 @@ const Testimonial = () => {
             </div>
           ))}
         </Slider>
-      </motion.div>
+      </div>
     </section>
   );
 };
