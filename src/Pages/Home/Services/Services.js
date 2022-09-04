@@ -20,7 +20,7 @@ const servicesData = [
       },
     },
     description:
-      'As a Front-End developer I have vast experience in making user-friendly web interfaces that help improve user experience and increase customer engagement.',
+      'Has a Front-End developer I have vast experience in making user-friendly web interfaces that help improve user experience and increase customer engagement.',
     serviceAnimation: {
       hidden: {
         x: '-100vw',
@@ -45,7 +45,7 @@ const servicesData = [
       },
     },
     description:
-      'I develop responsive website in both large and small or mobile screen with top notch UI/UX designs.',    
+      'I develop responsive website in both large and small or mobile screens, with top notch UI/UX designs.',    
       serviceAnimation: {
       hidden: {
         x: '-100vw',
@@ -109,6 +109,7 @@ const Services = () => {
       <h2 className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
         Our
         <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
+      </h2>
       <div
         className="flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-stretch lg:items-stretch gap-x-8"
         ref={ref}
