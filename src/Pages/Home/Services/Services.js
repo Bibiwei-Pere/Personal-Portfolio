@@ -105,16 +105,16 @@ const Services = () => {
   }, [inView, animation]);
 
   return (
-    <section className="container px-6 mx-auto pb-20">
-      <h2 className="my-12 mb-14 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+    <section className="container px-6 mx-auto py-20" ref={ref}>
+        <h2 className="mb-4 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
           Our
           <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
-      </h2>
-      <p className="text-xl text-center dark:text-gray-400">
-      It's important to have unique and attractive designs so that your audience sticks around with the site. Check out some of the services I render now.
-      </p>
+        </h2>
+        <p className="text-xl text-center dark:text-gray-400">
+          It's important to have unique and attractive designs so that your audience sticks around with the site. Check out some of the services I render now.
+        </p>
       <div
-        className="flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-stretch lg:items-stretch gap-x-8"
+        className="mt-12 flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-stretch lg:items-stretch gap-x-8"
         ref={ref}
       >
         {servicesData.map((service) => (
