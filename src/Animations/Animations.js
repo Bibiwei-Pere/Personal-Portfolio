@@ -21,7 +21,7 @@ export const bannerRightVariant = {
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 1.5, delay: 2, type: "spring" },
+    transition: { duration: 1, delay: 1, type: "spring" },
   },
 };
 
@@ -39,30 +39,6 @@ export const serviceAnimation = {
   },
 };
 
-/* Testimonial Section Animation */
-export const TestimonialTextAnimation = {
-  hidden: {
-    y: "-3vw",
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { duration: 1.5, delay: 1, type: "spring" },
-  },
-};
-
-export const TestimonialAnimation = {
-  hidden: {
-    y: "3vw",
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { duration: 1.5, delay: 1, type: "spring" },
-  },
-};
 
 /* Project Animation */
 
