@@ -27,7 +27,7 @@ const Banner = () => {
             Web Application
             <span className="text-indigo-600 dark:text-indigo-500"> Developer</span>
           </h2>
-          <p className="mt-3 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+          <p className="mt-1 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
             A passionate individual who always thrive to work on end to end
             products which develop sustainable and scalable social and technical
             systems to create impact. I’m currently learning JavaScript more
