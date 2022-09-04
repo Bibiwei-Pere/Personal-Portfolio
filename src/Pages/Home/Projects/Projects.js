@@ -3,7 +3,6 @@ import Filter from "./Filter/Filter";
 import Project from "./Project/Project";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { ProjectHeadingText, ProjectSubHeadingText } from "../../../Animations/Animations";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -42,11 +41,12 @@ const Projects = () => {
   return (
     <>
       <section className="container px-6 mx-auto py-20" ref={ref}>
-        <h2>
+        <h2 className="mb-4 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none"
+>
           Something that he has
           <span className="text-indigo-600 dark:text-indigo-500"> build</span>
         </h2>
-        <p>
+        <p className="text-indigo-600 dark:text-indigo-500">
           with love, expertise and pinch of magical ingredients
         </p>
         <div className="text-center">
