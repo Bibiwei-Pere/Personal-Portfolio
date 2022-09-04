@@ -29,7 +29,7 @@ export const bannerRightVariant = {
 
 export const serviceAnimation = {
   hidden: {
-    x: "100vw",
+    x: "-100vw",
     opacity: 0,
   },
   visible: {
