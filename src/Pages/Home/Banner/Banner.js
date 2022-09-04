@@ -91,7 +91,7 @@ const Banner = () => {
                 target="_blank"
                 href="bibiweijnr@gmail.com"
               >
-                <i className="ai-brands ai-outlinemail"></i>
+                <i className="fi-brands fi-mail"></i>
               </a>
             </div>
             <button className="rounded w-24 bg-indigo-700 hover:bg-indigo-800 py-2 px-4 text-white">
