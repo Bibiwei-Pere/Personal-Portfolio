@@ -41,7 +41,7 @@ const Banner = () => {
       <div className="flex flex-col lg:flex-row pt-8 md:pt-16 lg:pt-20 px-6 lg:justify-between">
           <h2 className="mb-4 text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
-            <span className="text-indigo-600 dark:text-indigo-500 mx-3">
+            <span className="text-indigo-600 dark:text-indigo-500 mx-2">
               Developer
             </span>
           </h2>
@@ -57,7 +57,7 @@ const Banner = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://www.facebook.com/akramSakibA"
+                href="https://www.facebook.com/profile.php?id=100074182476935"
               >
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
@@ -65,23 +65,7 @@ const Banner = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://www.instagram.com/myself_saki_"
-              >
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a
-                rel="noreferrer"
-                className="dark:text-white dark:bg-slate-700"
-                target="_blank"
-                href="https://twitter.com/AkramSakib4"
-              >
-                <i className="fa-brands fa-twitter"></i>
-              </a>
-              <a
-                rel="noreferrer"
-                className="dark:text-white dark:bg-slate-700"
-                target="_blank"
-                href="https://github.com/Akram-Sakib"
+                href="https://github.com/Bibiwei-Pere"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -89,9 +73,25 @@ const Banner = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://www.linkedin.com/in/akram-sakib-a7742a214/"
+                href="https://twitter.com/Bibiwei_Pere?t=iJwy0PkZtx_YolGtuoVoxw&s=09"
               >
-                <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                rel="noreferrer"
+                className="dark:text-white dark:bg-slate-700"
+                target="_blank"
+                href="https://t.me/Bibiwei_Pere"
+              >
+                <i className="fa-brands fa-telegram"></i>
+              </a>
+              <a
+                rel="noreferrer"
+                className="dark:text-white dark:bg-slate-700"
+                target="_blank"
+                href="bibiweijnr@gmail.com"
+              >
+                <i className="ai-brands ai-outlinemail"></i>
               </a>
             </div>
             <button className="rounded w-24 bg-indigo-700 hover:bg-indigo-800 py-2 px-4 text-white">
