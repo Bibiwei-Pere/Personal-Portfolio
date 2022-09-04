@@ -15,13 +15,13 @@ export const navAnimationLogo = {
 
 export const bannerRightVariant = {
   hidden: {
-    x: "100vw",
+    x: "-100vw",
     opacity: 0,
   },
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 1, delay: 1, type: "spring" },
+    transition: { duration: 1.5, delay: 1.5, type: "spring" },
   },
 };
 
