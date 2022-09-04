@@ -3,7 +3,6 @@ import './Banner.css';
 import Lottie from 'react-lottie';
 import developer from './../../../Assets/SvgAnimations/developer.json';
 import { motion, useAnimation } from 'framer-motion';
-import { bannerRightVariant } from '../../../Animations/Animations';
 import { useInView } from 'react-intersection-observer';
 
 const Banner = () => {
@@ -21,21 +20,8 @@ const Banner = () => {
     triggerOnce: true,
   });
 
-  const [viewDiv, setViewDiv] = useState(false);
-
-  const animation = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      setViewDiv(true);
-    }
-    if (!inView) {
-      setViewDiv(false);
-    }
-  }, [inView, animation]);
-
   return (
-    <section ref={ref} className="container px-6 mx-auto relative">
+    <section ref={ref} className="container px-6 mx-auto relative pb-20">
       <div className="flex flex-col lg:flex-row pt-8 md:pt-16 lg:pt-20 px-6 lg:justify-between">
           <h2 className="mb-4 text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
@@ -100,14 +86,9 @@ const Banner = () => {
               </a>
             </button>
           </div>
-        <motion.div
-          initial="hidden"
-          animate={viewDiv && 'visible'}
-          variants={bannerRightVariant}
-          className="lg:w-1/3 md:w-3/4 md:mx-auto"
-        >
+        <div>
           <Lottie options={defaultOptions} height={'70%'} width={'100%'} />
-        </motion.div>
+        </div>
       </div>
     </section>
   );
