@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="edu_cation pb-16">
+      <section className="edu_cation pb-8">
         <div className="educationWrapper">
           <div className="workheading dark:text-white">Education</div>
 
