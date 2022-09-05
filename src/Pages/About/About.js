@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import './About.css';
 import { Link } from 'react-router-dom';
+import hero from "./../../Assets/Images/hero.png";
 
 const About = () => {
   return (
@@ -42,7 +43,7 @@ const About = () => {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://i.ibb.co/0F27pVK/Akram-Sakib.png"
+              src={hero}
             />
           </div>
         </div>
