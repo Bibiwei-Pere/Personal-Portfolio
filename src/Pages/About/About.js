@@ -125,8 +125,8 @@ const About = () => {
       <section className="text-gray-700 body-font dark:text-white">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="skills_left">
-            <div className="my-8">
-              <span className="text-indigo-700 text-lg">Skills</span>
+            <div className="my-8 text-center">
+              <span className="text-indigo-700 text-3xl">Skills</span>
               <h3 className="text-4xl uppercase font-extrabold">
                 Programming Skills
               </h3>
@@ -193,17 +193,6 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div
-            className="right-img w-4/6
-           relative"
-          >
-            <div className="w-4/6 h-96 bg-indigo-600">
-              <img
-                src="https://marketifythemes.net/html/kura/img/portfolio/2.jpg"
-                alt=""
-              />
             </div>
           </div>
         </div>
