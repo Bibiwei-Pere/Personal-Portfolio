@@ -42,11 +42,11 @@ const Projects = () => {
     <>
       <section className="container px-6 mx-auto py-20" ref={ref}>
         <h2 className="mb-4 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
-          Something that he has
-          <span className="text-indigo-600 dark:text-indigo-500"> build</span>
+          Recent
+          <span className="text-indigo-600 dark:text-indigo-500"> Works</span>
         </h2>
-        <p className="text-xl text-center dark:text-gray-400">
-          with love, expertise and pinch of magical ingredients
+        <p className="text-xl text-left dark:text-gray-400">
+          Check out some of my recent works built with love, expertise and a touch of magical ingredients.
         </p>
         <div className="text-center">
           <Filter
