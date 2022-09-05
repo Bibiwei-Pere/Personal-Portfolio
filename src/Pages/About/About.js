@@ -12,13 +12,11 @@ const About = () => {
       <section className="text-gray-700 px-6 body-font dark:text-white">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h2 className="text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+            <h2 className="text-5xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
-            <span className="text-indigo-600 dark:text-indigo-500">
-              Developer
-            </span>
+            <span className="text-indigo-600 dark:text-indigo-500"> Developer</span>
           </h2>
-          <p className="mt-3 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+          <p className="mt-3 pb-16 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
             A passionate individual who always thrive to work on end to end
             products which develop sustainable and scalable social and technical
             systems to create impact. I’m currently learning JavaScript more
