@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* This example requires Tailwind CSS v2.0+ */}
         <div className="relative z-50 bg-white dark:bg-slate-900 transition-all">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="flex justify-between items-center transition-all dark:border-slate-700 border-b-2 border-gray-100 py-6 md:justify-start md:space-x-35">
+            <div className="flex justify-between items-center transition-all dark:border-slate-700 border-b-2 border-gray-100 py-6 md:justify-start md:space-x-32">
               <motion.div
                 initial="hidden"
                 animate="visible"
