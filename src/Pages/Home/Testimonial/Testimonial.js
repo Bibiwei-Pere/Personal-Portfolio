@@ -77,7 +77,7 @@ const Testimonial = () => {
   }, [inView, animation]);
 
   return (
-    <section className="container px-6 mx-auto" ref={ref}>
+    <section className="container px-6 mx-auto pb-16" ref={ref}>
       <h2 className="mb-4 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
         Client
         <span className="text-indigo-600 dark:text-indigo-500"> Review</span>
