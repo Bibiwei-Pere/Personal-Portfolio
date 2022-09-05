@@ -111,7 +111,7 @@ const Services = () => {
           <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
         </h2>
         <p className="text-xl text-left dark:text-gray-400">
-          It's important to have unique and attractive designs so that your audience sticks around with the site. Check out some of the services I render now.
+          It's important to have unique and attractive designs so that your audience sticks around with the site. Check out some of the services I render.
         </p>
       <div
         className="mt-12 flex flex-col md:flex-row lg:flex-row justify-between items-center md:items-stretch lg:items-stretch gap-x-8"
