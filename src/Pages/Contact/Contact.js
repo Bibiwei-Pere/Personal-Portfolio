@@ -269,9 +269,8 @@ const Contact = () => {
             </form>
           </motion.div>
         </div>
-      </section>
       
-      <section className="contact_section py-12">
+      <div className="contact_section py-12">
         <div className="my-8 text-center">
           <h3 className="text-4xl uppercase font-extrabold">
           Connect with me
@@ -300,6 +299,7 @@ const Contact = () => {
            </div>
          </div>
       </div>  
+      </div>
       </section>
     </>
   );
