@@ -55,9 +55,9 @@ const Banner = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://twitter.com/Bibiwei_Pere?t=iJwy0PkZtx_YolGtuoVoxw&s=09"
+                href="https://www.linkedin.com/in/bibiwei-pere-9a34b024b"
               >
-                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
               <a
                 rel="noreferrer"
