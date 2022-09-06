@@ -96,7 +96,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink activeclassname="active" to="/contact">
                   <span className="text-base dark:hover:text-white font-medium text-gray-500 hover:text-gray-900">
-                    Contact
+                    Ball
                   </span>
                 </NavLink>
               </nav>
