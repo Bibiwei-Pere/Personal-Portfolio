@@ -134,7 +134,8 @@ const Navbar = () => {
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
               <div className="pt-5 pb-6 px-5">
                 <div className="flex items-center justify-between">
-                  <div>
+                <div className="flex items-center justify-between">
+                <div>
                     <Link to="/">
                   <img
                     className="h-8 lg:w-40 md:w-32 sm:w-28"
@@ -143,8 +144,8 @@ const Navbar = () => {
                   />
                 </Link>
                   </div>
-                  <div className="flex items-center justify-between">
                   <div><ThemeToggle /></div>
+                  </div>
                   <div className="-mr-2">
                     <button
                       type="button"
@@ -169,7 +170,7 @@ const Navbar = () => {
                         />
                       </svg>
                     </button>
-                  </div>
+                  
                   </div>
                 </div>
                 <div className="mt-6">
