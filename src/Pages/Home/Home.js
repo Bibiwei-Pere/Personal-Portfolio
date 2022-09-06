@@ -22,7 +22,7 @@ const Home = () => {
         <meta property="og:url" content="https://bibiweipere.netlify.app/" />
         <meta
           property="og:image"
-          content="https://i.ibb.co/0F27pVK/Akram-Sakib.png"
+          content="https://raw.githubusercontent.com/Adrenaline9/worship/8f6fd1c7dbdb7cf74857410bfbc9953bffa4c0e7/src/Assets/Images/logo.svg"
         />
       </Helmet>
       <Banner />
