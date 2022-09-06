@@ -259,12 +259,16 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="py-6 px-5 space-y-6">
-                  
-                  <button className="flex items-center justify-center border border-indigo-600 bg-white hover:bg-indigo-700 rounded-md flex-1">
-                <ThemeToggle />
-                <span className="ml-8 text-base text-gray-900 whitespace-nowrap inline-flex items-center justify-center px-4 py-4 shadow-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700"> switch to dark mode</span>
-              </button>
-                
+                <div>
+                  <a
+                    rel="noreferrer"
+                    target={"_blank"}
+                    href="https://drive.google.com/file/d/13InTZi1mAYqxdHQrN-NfIP-fr_BgEcip/view?usp=sharing"
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    RESUME
+                  </a>
+                </div>
               </div>
             </div>
           </div>
