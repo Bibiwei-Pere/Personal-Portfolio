@@ -10,16 +10,16 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Akram Sakib | Home</title>
+        <title>Bibiwei Pere | Home</title>
         <meta
           property="og:title"
-          content="Akram Hossain's Personal Portfolio Website"
+          content="Bibiwei Pere's Personal Portfolio Website"
         />
         <meta
           property="og:description"
           content="MERN Stack Developer || Full-stack Developer || Front-End Developer || React JS Develooper || JavaScript Developer"
         />
-        <meta property="og:url" content="https://akram-sakib.netlify.app/" />
+        <meta property="og:url" content="https://bibiweipere.netlify.app/" />
         <meta
           property="og:image"
           content="https://i.ibb.co/0F27pVK/Akram-Sakib.png"
