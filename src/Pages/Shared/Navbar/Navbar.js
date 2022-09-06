@@ -143,7 +143,7 @@ const Navbar = () => {
                   />
                 </Link>
                   </div>
-                  <div>
+                  <div className="flex items-center justify-between">
                   <div><ThemeToggle /></div>
                   <div className="-mr-2">
                     <button
