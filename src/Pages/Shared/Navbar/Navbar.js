@@ -143,6 +143,8 @@ const Navbar = () => {
                   />
                 </Link>
                   </div>
+                  <div>
+                  <div><ThemeToggle /></div>
                   <div className="-mr-2">
                     <button
                       type="button"
@@ -167,6 +169,7 @@ const Navbar = () => {
                         />
                       </svg>
                     </button>
+                  </div>
                   </div>
                 </div>
                 <div className="mt-6">
