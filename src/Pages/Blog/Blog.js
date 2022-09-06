@@ -41,7 +41,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Akram Sakib - Blogs</title>
+        <title>Bibiwei Pere - Blogs</title>
       </Helmet>
       <div className="flex px-6 items-center dark:bg-gray-900 justify-center lg:h-screen bg-gray-200">
         <div className="container">
