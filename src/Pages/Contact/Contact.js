@@ -126,7 +126,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Akram Sakib - Contact</title>
+        <title>Bibiwei Pere - Contact</title>
       </Helmet>
       <section className="contact_section py-12" ref={ref}>
         <ToastContainer
