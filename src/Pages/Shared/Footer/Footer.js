@@ -31,7 +31,8 @@ const Footer = () => {
         </ul>
       
 
-      <div className="flex w-2/6 sm:w-4/6 flex-wrap mx-auto items-center">
+      <div className="flex w-3/6 sm:w-5/6 flex-wrap mx-auto items-center">
+      <div>
       <Link to="/" className="sm:mb-0">
           <img
             src={logo}
@@ -39,10 +40,13 @@ const Footer = () => {
             alt="logo"
           />
       </Link>
+      </div>
+      <div>
       <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © 2022{" "}
         Bibiwei Pere
       </span>
+      </div>
       </div>
     </footer>
   );
