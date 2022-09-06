@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
       
 
-      <div className="flex w-3/6 md:w-2/6 mx-auto items-center justify-between">
+      <div className="flex w-3/6 md:w-2/6 mx-auto items-center">
       <Link to="/" className="flex items-center mb-4 sm:mb-0">
           <img
             src={logo}
