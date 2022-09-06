@@ -126,9 +126,9 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Bibiwei Pere - Contact</title>
+        <title>Akram Sakib - Contact</title>
       </Helmet>
-      <section className="contact_section py-12 pt-20" ref={ref}>
+      <section className="contact_section py-12" ref={ref}>
         <ToastContainer
           position="top-right"
           autoClose={3000}
@@ -269,8 +269,6 @@ const Contact = () => {
             </form>
           </motion.div>
         </div>
-      
-      
       </section>
     </>
   );
