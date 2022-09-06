@@ -29,7 +29,7 @@ const Footer = () => {
             </NavLink>
           </li>
         </ul>
-      </div>
+      
 
       <div className="flex w-5/6 mx-auto sitems-center justify-between">
       <Link to="/" className="flex items-center mb-4 sm:mb-0">
