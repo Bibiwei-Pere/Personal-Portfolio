@@ -128,7 +128,7 @@ const Contact = () => {
       <Helmet>
         <title>Bibiwei Pere - Contact</title>
       </Helmet>
-      <section className="contact_section py-12 pt-20" ref={ref}>
+      <section className="contact_section py-12 pt-20 ref={ref}">
         <ToastContainer
           position="top-right"
           autoClose={3000}
@@ -270,7 +270,8 @@ const Contact = () => {
           </motion.div>
         </div>
       </section>
-      <section className="contact_section py-12" ref={ref}>
+      
+      <section className="contact_section py-12 ref={ref}">
       <div className="container mx-auto flex px-5 pb-24 md:flex-row md:flex-wrap  items-center">
          <div className="my-8 text-center">
             <h3 className="text-4xl uppercase font-extrabold">
