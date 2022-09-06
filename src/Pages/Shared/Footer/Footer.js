@@ -31,8 +31,7 @@ const Footer = () => {
         </ul>
       
 
-      <div className="md:relative flex w-2/6 sm:w-5/6 flex-wrap mx-auto items-center">
-      <div>
+      <div className="flex w-2/6 sm:w-5/6 flex-wrap mx-auto items-center">
       <Link to="/" className="sm:mb-0">
           <img
             src={logo}
@@ -40,14 +39,10 @@ const Footer = () => {
             alt="logo"
           />
       </Link>
-      </div>
-      <div>
       <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © 2022{" "}
         Bibiwei Pere
       </span>
-      </div>
-      </div>
     </footer>
   );
 };
