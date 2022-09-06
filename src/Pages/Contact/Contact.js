@@ -126,7 +126,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Akram Sakib - Contact</title>
+        <title>Bibiwei Pere - Contact</title>
       </Helmet>
       <section className="contact_section py-12" ref={ref}>
         <ToastContainer
@@ -141,22 +141,12 @@ const Contact = () => {
           pauseOnHover
         />
         <div className="text-center mb-4">
-          <motion.p
-            initial="hidden"
-            animate={viewDiv && "visible"}
-            variants={ContactTextAnimation}
-            className="text-sm leading-7 dark:text-white text-gray-500 font-regular uppercase"
-          >
+          <p className="text-sm leading-7 dark:text-white text-gray-500 font-regular uppercase">
             Contact
-          </motion.p>
-          <motion.h3
-            initial="hidden"
-            animate={viewDiv && "visible"}
-            variants={ContactHeadingAnimation}
-            className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white"
-          >
+          </p>
+          <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">
             Get In <span className="text-indigo-600">Touch</span>
-          </motion.h3>
+          </h3>
         </div>
         <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
           <motion.div
