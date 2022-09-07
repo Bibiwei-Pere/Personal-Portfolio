@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Bibiwei Pere | About</title>
+        <title>Bibiwei | About</title>
       </Helmet>
       <section className="text-gray-700 px-6 body-font dark:text-white pt-20">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
