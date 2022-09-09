@@ -43,6 +43,7 @@ const Footer = () => {
         © 2022{" "}
         Bibiwei Pere
       </span>
+     </div>
     </footer>
   );
 };
