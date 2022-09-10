@@ -268,8 +268,8 @@ const Contact = () => {
           </h3>
         </div>
 
-        <div className="grid gap-x-2 gap-y-3 grid-cols-2 grid-rows-2 mx-auto px-5 pb-24 items-center">
-         <div className="w-full h-32 border border-indigo-600 mx-auto p-5">
+        <div className="grid gap-x-5 gap-y-9 grid-cols-2 grid-rows-2 sm:grid-cols-1 sm:grid-rows-4 mx-auto pb-24 items-center">
+         <div className="w-full h-40 border border-indigo-600 mx-auto p-15">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <div className="grid gap-x-2 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
