@@ -144,11 +144,12 @@ const Navbar = () => {
                     </Link>
                   </div>
                   <div className="-mr-2">
+                  <div className="flex items-center justify-between">
+                    <div className="mr-4"><ThemeToggle /></div>
                     <button
                       type="button"
                       className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                      onClick={() => setOpen(!open)}
-                    >
+                     >
                       <span className="sr-only">Close menu</span>
                       {/* Heroicon name: outline/x */}
                       <svg
@@ -168,6 +169,7 @@ const Navbar = () => {
                       </svg>
                     </button>
                   </div>
+                 </div>
                 </div>
                 <div className="mt-6">
                   <nav className="grid gap-y-8">
@@ -255,10 +257,7 @@ const Navbar = () => {
                         Contact
                       </span>
                     </NavLink>
-                    <button className="text-2xl text-indigo-600"><div className="mr-4"><ThemeToggle /></div>
-                    Dark Mode
-                    </button>
-                  </nav>
+                    </nav>
                 </div>
               </div>
               <div className="py-6 px-5 space-y-6">
