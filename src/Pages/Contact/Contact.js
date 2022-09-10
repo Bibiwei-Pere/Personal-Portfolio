@@ -271,22 +271,13 @@ const Contact = () => {
         <div className="border border-indigo-600 flex justify-between flex-wrap px-10">
          <div className="w-72 my-10 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
-               <div className="flex justify-evenly items-center">
-                 <div className="border border-indigo-600 dark:text-white dark:bg-slate-700">
-                  <i className="fa-brands fa-telegram"></i>
-                 </div>
-                 <p className="border border-indigo-600 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+               <p className="border border-indigo-600 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
-                 </p>
-               </div>
-         </div>
+               </p>
+          </div>
          <div className="w-72 my-10 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
-               <div className="flex justify-evenly items-center">
-                 <div className="dark:text-white dark:bg-slate-700">
-                  <i className="fa-brands fa-telegram"></i>
-                 </div>
-                  <div className="social-links flex px-5 flex-row items-center">
+               <div className="social-links flex px-5 flex-row items-center">
                     <a
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
@@ -320,30 +311,33 @@ const Contact = () => {
                 <i className="fa-brands fa-telegram"></i>
                     </a>
                  </div>
-           </div>
          </div>
          <div className="w-72 my-10 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
-               <div className="flex justify-evenly items-center">
-                 <div className="dark:text-white dark:bg-slate-700">
-                  <i className="fa-brands fa-telegram"></i>
-                 </div>
-                 <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
-                 bibiweipere@gmail.com
-                 </p>
-               </div>
+           <a
+              rel="noreferrer"
+              className="dark:text-white dark:bg-slate-700"
+              target="_blank"
+              href="https://t.me/Bibiwei_Pere"
+              >
+             <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+              bibiweipere@gmail.com
+             </p>
+           </a>    
          </div>
          <div className="w-72 my-10 h-40 border border-indigo-600">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
-               <div className="flex justify-evenly items-center">
-                 <div className="dark:text-white dark:bg-slate-700">
-                  <i className="fa-brands fa-telegram"></i>
-                 </div>
-                  <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
-                 +2348118333284
-                 </p>
-           </div>
-         </div>
+               <a
+              rel="noreferrer"
+              className="dark:text-white dark:bg-slate-700"
+              target="_blank"
+              href="https://t.me/Bibiwei_Pere"
+              >
+             <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+              +2348118333284
+             </p>
+             </a>    
+          </div>
       </div>  
       </div>
       </section>
