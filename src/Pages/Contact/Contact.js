@@ -128,7 +128,7 @@ const Contact = () => {
       <Helmet>
         <title>Bibiwei Pere - Contact</title>
       </Helmet>
-      <section className="contact_section pt-20" ref={ref}>
+      <section className="contact_section text-gray-700 body-font dark:text-white mt-20 py-20" ref={ref}>
         <ToastContainer
           position="top-right"
           autoClose={3000}
@@ -272,15 +272,13 @@ const Contact = () => {
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">My Address</span>
                <div className="flex px-5 flex-row items-center">
-                 <a
-                rel="noreferrer"
-                className="dark:text-white dark:bg-slate-700"
-                target="_blank"
-                href="https://t.me/Bibiwei_Pere"
-              >
-                <i className="fa-brands fa-telegram"></i>
-                 </a>
-                 <div></div>
+                 <div
+                  className="dark:text-white dark:bg-slate-700"
+                  <i className="fa-brands fa-telegram"></i>
+                 </div>
+                 <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+                 Giwa-amu Street, Estate, Warri, Delta State, Nigeria
+                 </p>
                </div>
            </div>
          </div>
