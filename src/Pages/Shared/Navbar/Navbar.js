@@ -32,7 +32,7 @@ const Navbar = () => {
               >
                 <Link to="/">
                   <img
-                    className="h-8 lg:w-40 md:w-32 sm:w-28"
+                    className="h-12 md:w-40 sm:w-32"
                     src={logo}
                     alt="logo"
                   />
@@ -96,7 +96,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink activeclassname="active" to="/contact">
                   <span className="text-base dark:hover:text-white font-medium text-gray-500 hover:text-gray-900">
-                    Ballet
+                    Contact
                   </span>
                 </NavLink>
               </nav>
@@ -106,7 +106,7 @@ const Navbar = () => {
                   rel="noreferrer"
                   href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
                   target="_blank"
-                  className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                  className="ml-8 mr-12 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Resume
                 </a>
