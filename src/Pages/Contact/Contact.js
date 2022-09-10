@@ -259,6 +259,7 @@ const Contact = () => {
             </form>
           </motion.div>
         </div>
+        
         <div className="contact_section py-12">
         <div className="my-8 text-center">
           <h3 className="text-4xl uppercase font-extrabold">
@@ -288,7 +289,7 @@ const Contact = () => {
            </div>
          </div>
       </div>  
-      
+      </div>
       </section>
     </>
   );
