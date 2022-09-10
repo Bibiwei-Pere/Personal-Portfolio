@@ -103,7 +103,7 @@ const Navbar = () => {
                   </span>
                 </NavLink>
               </nav>
-              <div className="md:flex items-center justify-end md:flex-1 lg:w-0">
+              <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 <ThemeToggle />
                 <a
                   rel="noreferrer"
