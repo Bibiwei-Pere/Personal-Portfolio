@@ -269,8 +269,8 @@ const Contact = () => {
         </div>
 
         <div className="grid gap-1 grid-cols-2 grid-rows-2 mx-auto px-5 pb-24 items-center">
-         <div className="my-8 text-center">
-            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
+         <div className="border border-indigo-600 mx-auto p-5">
+           <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
@@ -280,7 +280,7 @@ const Contact = () => {
                  </p>
                </div>
          </div>
-         <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
+         <div className="border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
@@ -322,7 +322,7 @@ const Contact = () => {
                  </div>
            </div>
          </div>
-         <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
+         <div className="border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
@@ -333,7 +333,7 @@ const Contact = () => {
                  </p>
                </div>
          </div>
-         <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
+         <div className="border border-indigo-600 mx-auto p-5">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
