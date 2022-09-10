@@ -32,7 +32,7 @@ const Navbar = () => {
               >
                 <Link to="/">
                   <img
-                    className="md:w-40 md:h-10 sm:w-28 h-8"
+                    className="md:w-40 md:h-10 sm:w-28 h-5"
                     src={logo}
                     alt="logo"
                   />
@@ -40,7 +40,7 @@ const Navbar = () => {
               </motion.div>
               <div className="-mr-2 -my-2 md:hidden">
                 <div className="flex items-center justify-between">
-                <div className="h-5 mr-2"><ThemeToggle /></div>
+                <div className="h-8 mr-2"><ThemeToggle /></div>
                 <button
                   type="button"
                   className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
