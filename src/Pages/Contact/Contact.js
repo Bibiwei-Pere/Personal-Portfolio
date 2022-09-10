@@ -261,14 +261,14 @@ const Contact = () => {
           </motion.div>
         </div>
         
-        <div className="contact_section py-12">
+        <div className="container">
         <div className="my-8 text-center">
           <h3 className="text-4xl uppercase font-extrabold">
           Connect with me
           </h3>
         </div>
 
-        <div className="mx-auto flex px-5 pb-24 md:flex-row md:flex-wrap  items-center">
+        <div className="container mx-auto flex px-5 pb-24 md:flex-row md:flex-wrap items-center">
          <div className="w-full md:w-1/2 border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">My Address</span>
