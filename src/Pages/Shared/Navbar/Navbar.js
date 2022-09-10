@@ -38,7 +38,7 @@ const Navbar = () => {
                   />
                 </Link>
               </motion.div>
-              <div className="-mr-2 -my-2 md:hidden">
+              <div className="-mr-2 -my-2 hidden sm:flex items-center justify-end sm:flex-1">
 <ThemeToggle />
                 <button
                   type="button"
