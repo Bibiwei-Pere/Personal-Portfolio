@@ -271,7 +271,7 @@ const Contact = () => {
         <div className="grid gap-x-5 gap-y-9 grid-cols-2 grid-rows-2 sm:grid-cols-1 sm:grid-rows-4 mx-auto pb-24 items-center">
          <div className="w-full h-40 border border-indigo-600 mx-auto p-15">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
-               <div className="grid gap-x-2 grid-cols-2 grid-rows-1 items-center">
+               <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
@@ -282,7 +282,7 @@ const Contact = () => {
          </div>
          <div className="w-full h-32 border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
-               <div className="grid gap-x-2 grid-cols-2 grid-rows-1 items-center">
+               <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
@@ -324,7 +324,7 @@ const Contact = () => {
          </div>
          <div className="w-full h-32 border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
-               <div className="grid gap-x-2 grid-cols-2 grid-rows-1 items-center">
+               <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
@@ -335,7 +335,7 @@ const Contact = () => {
          </div>
          <div className="w-full h-32 border border-indigo-600 mx-auto p-5">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
-               <div className="grid gap-x-2 grid-cols-2 grid-rows-1 items-center">
+               <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
