@@ -270,13 +270,13 @@ const Contact = () => {
 
         <div className="flex justify-between flex-wrap px-10">
          <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
-           <span className="block text-indigo-700 text-3xl text-center font-bold">My Address</span>
-               <p className="border border-indigo-600 text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
+           <span className="block text-indigo-700 text-3xl text-center">My Address</span>
+               <p className="text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
                </p>
           </div>
          <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
-           <span className="block text-indigo-700 text-3xl text-center font-bold">Social Profiles</span>
+           <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
                <div className="social-links flex px-5 flex-row items-center sm:mt-15 sm:max-w-xl mt-5">
                     <a
                 rel="noreferrer"
@@ -326,7 +326,7 @@ const Contact = () => {
            </a>    
          </div>
          <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
-               <span className="block text-indigo-700 text-3xl text-center font-bold">Contact</span>
+               <span className="block text-indigo-700 text-3xl text-center">Contact</span>
                <a
               rel="noreferrer"
               className="dark:text-white dark:bg-slate-700"
