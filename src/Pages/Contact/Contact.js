@@ -269,13 +269,13 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-between flex-wrap px-10">
-         <div className="w-72 my-10 p-5 h-40 bg-gray-50 rounded-md">
+         <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
            <span className="block text-indigo-700 text-3xl text-center font-bold">My Address</span>
                <p className="border border-indigo-600 text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
                </p>
           </div>
-         <div className="w-72 my-10 p-5 h-40 bg-gray-50 rounded-md">
+         <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
            <span className="block text-indigo-700 text-3xl text-center font-bold">Social Profiles</span>
                <div className="social-links flex px-5 flex-row items-center sm:mt-15 sm:max-w-xl mt-5">
                     <a
@@ -312,7 +312,7 @@ const Contact = () => {
                     </a>
                  </div>
          </div>
-         <div className="w-72 my-10 p-5 h-40 bg-gray-50 rounded-md">
+         <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
            <a
               rel="noreferrer"
@@ -325,7 +325,7 @@ const Contact = () => {
              </p>
            </a>    
          </div>
-         <div className="w-72 my-10 p-5 h-40 bg-gray-50 rounded-md">
+         <div className="w-72 my-10 p-5 h-40 bg-sky-200 rounded-md">
                <span className="block text-indigo-700 text-3xl text-center font-bold">Contact</span>
                <a
               rel="noreferrer"
