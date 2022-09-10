@@ -4,7 +4,7 @@ import logo from "./../../../Assets/Images/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="p-4 w-full bg-white shadow md:px-6 md:py-8 dark:bg-gray-800">
+    <footer className="p-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-800">
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       
         <ul className="flex flex-wrap w-5/6 md:w-2/6 mx-auto justify-between items-center mb-4 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
       
 
-      <div className="flex w-2/6 justify-between sm:w-5/6 mx-auto items-center">
+      <div className="flex w-72 justify-between sm:w-72 mx-auto items-center">
       <Link to="/" className="sm:mb-0">
           <img
             src={logo}
