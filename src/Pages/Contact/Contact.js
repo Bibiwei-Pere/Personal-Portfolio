@@ -128,7 +128,7 @@ const Contact = () => {
       <Helmet>
         <title>Bibiwei Pere - Contact</title>
       </Helmet>
-      <section className="contact_section py-12 pt-20" ref={ref}>
+      <section className="contact_section pt-20" ref={ref}>
         <ToastContainer
           position="top-right"
           autoClose={3000}
@@ -271,21 +271,44 @@ const Contact = () => {
          <div className="max-w-screen-md border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">My Address</span>
+               <div className="flex px-5 flex-row items-center">
+                 <a
+                rel="noreferrer"
+                className="dark:text-white dark:bg-slate-700"
+                target="_blank"
+                href="https://t.me/Bibiwei_Pere"
+              >
+                <i className="fa-brands fa-telegram"></i>
+                 </a>
+                 <div></div>
+               </div>
            </div>
          </div>
          <div className="max-w-screen-md border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">Social Profiles</span>
+               <div className="flex px-5 flex-row items-center">
+                 <div></div>
+                 <div></div>
+               </div>
            </div>
          </div>
          <div className="max-w-screen-md border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">Email</span>
+               <div className="flex px-5 flex-row items-center">
+                 <div></div>
+                 <div></div>
+               </div>
            </div>
          </div>
          <div className="max-w-screen-md border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">Contact</span>
+               <div className="flex px-5 flex-row items-center">
+                 <div></div>
+                 <div></div>
+               </div>
            </div>
          </div>
       </div>  
