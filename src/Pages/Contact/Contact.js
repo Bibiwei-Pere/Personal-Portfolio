@@ -329,8 +329,12 @@ const Contact = () => {
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">Email</span>
                <div className="flex px-5 flex-row items-center">
-                 <div></div>
-                 <div></div>
+                 <div className="dark:text-white dark:bg-slate-700">
+                  <i className="fa-brands fa-telegram"></i>
+                 </div>
+                 <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+                 bibiweipere@gmail.com
+                 </p>
                </div>
            </div>
          </div>
@@ -338,8 +342,12 @@ const Contact = () => {
            <div className="flex px-5 flex-row items-center">
              <span className="text-indigo-700 text-3xl">Contact</span>
                <div className="flex px-5 flex-row items-center">
-                 <div></div>
-                 <div></div>
+                 <div className="dark:text-white dark:bg-slate-700">
+                  <i className="fa-brands fa-telegram"></i>
+                 </div>
+                 <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+                 +2348118333284
+                 </p>
                </div>
            </div>
          </div>
