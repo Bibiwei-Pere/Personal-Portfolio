@@ -32,7 +32,7 @@ const Navbar = () => {
               >
                 <Link to="/">
                   <img
-                    className="md:h-12 md:w-40 sm:w-28 sm:h-8"
+                    className="md:w-40 sm:w-28 h-8"
                     src={logo}
                     alt="logo"
                   />
