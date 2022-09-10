@@ -268,10 +268,10 @@ const Contact = () => {
           </h3>
         </div>
 
-        <div className="border border-indigo-600 flex justify-between flex-wrap px-10">
+        <div className="flex justify-between flex-wrap px-10">
          <div className="w-72 my-10 h-40 border border-indigo-600">
-           <span className="block text-indigo-700 text-3xl text-center">My Address</span>
-               <p className="border border-indigo-600 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-bold">
+           <span className="block text-indigo-700 text-3xl text-center font-bold">My Address</span>
+               <p className="border border-indigo-600 text-center text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-bold">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
                </p>
           </div>
