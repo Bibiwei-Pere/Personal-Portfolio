@@ -340,13 +340,11 @@ const Contact = () => {
            </div>
          </div>
          <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
-           <div className="flex px-5 flex-row items-center">
-             <span className="block text-indigo-700 text-3xl">Contact</span>
+               <span className="block text-indigo-700 text-3xl text-center">Contact</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
-                 </div>
-                 <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+                  <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
                  +2348118333284
                  </p>
                </div>
