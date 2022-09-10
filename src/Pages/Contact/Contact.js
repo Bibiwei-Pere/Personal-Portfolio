@@ -289,7 +289,7 @@ const Contact = () => {
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
-                  <div className="flex px-5 flex-row items-center">
+                  <div className="social-links flex px-5 flex-row items-center">
                     <a
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
