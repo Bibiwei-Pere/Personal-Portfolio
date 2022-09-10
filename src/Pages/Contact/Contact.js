@@ -269,7 +269,7 @@ const Contact = () => {
         </div>
 
         <div className="w-full border border-indigo-600 grid grid-rows-2 grid-flow-col mx-auto">
-         <div className="w-1/2 h-40 border border-indigo-600">
+         <div className="w-1/2 mx-auto h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="border border-indigo-600 dark:text-white dark:bg-slate-700">
@@ -280,7 +280,7 @@ const Contact = () => {
                  </p>
                </div>
          </div>
-         <div className="w-1/2 h-40 border border-indigo-600">
+         <div className="w-1/2 mx-auto h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
@@ -322,7 +322,7 @@ const Contact = () => {
                  </div>
            </div>
          </div>
-         <div className="w-1/2 h-40 border border-indigo-600">
+         <div className="w-1/2 mx-auto h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
@@ -333,9 +333,9 @@ const Contact = () => {
                  </p>
                </div>
          </div>
-         <div className="w-1/2 h-40 border border-indigo-600">
+         <div className="w-1/2 mx-auto h-40 border border-indigo-600">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
-               <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
+               <div className="grid gap-x-1 grid-cols-2 grid-rows-1">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
