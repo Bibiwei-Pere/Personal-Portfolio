@@ -261,7 +261,7 @@ const Contact = () => {
           </motion.div>
         </div>
         
-        <div className="container mx-auto">
+        <div className="container mx-auto items-center p-15">
         <div className="my-8 text-center">
           <h3 className="text-4xl uppercase font-extrabold">
           Connect with me
