@@ -271,7 +271,7 @@ const Contact = () => {
         <div className="mx-auto flex px-5 pb-24 md:flex-row md:flex-wrap items-center">
          <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
            <div className="grid gap-4 grid-cols-2 grid-rows-2 px-5 items-center">
-             <span className="text-indigo-700 text-3xl">My Address</span>
+             <span className="block text-indigo-700 text-3xl">My Address</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
@@ -284,7 +284,7 @@ const Contact = () => {
          </div>
          <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
-             <span className="text-indigo-700 text-3xl">Social Profiles</span>
+             <span className="block text-indigo-700 text-3xl">Social Profiles</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
@@ -328,7 +328,7 @@ const Contact = () => {
          </div>
          <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
-             <span className="text-indigo-700 text-3xl">Email</span>
+             <span className="block text-indigo-700 text-3xl">Email</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
@@ -341,7 +341,7 @@ const Contact = () => {
          </div>
          <div className="w-full md:w-3/6 border border-indigo-600 mx-auto p-5">
            <div className="flex px-5 flex-row items-center">
-             <span className="text-indigo-700 text-3xl">Contact</span>
+             <span className="block text-indigo-700 text-3xl">Contact</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
