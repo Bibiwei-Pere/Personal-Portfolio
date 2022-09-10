@@ -37,7 +37,7 @@ const Navbar = () => {
                     alt="logo"
                   />
                 </Link>
-              </motion.div><div className="mr-4"><ThemeToggle /></div>
+              </motion.div>
               <div className="-mr-2 -my-2 md:hidden">
                 <button
                   type="button"
@@ -255,8 +255,9 @@ const Navbar = () => {
                         Contact
                       </span>
                     </NavLink>
-<div className="mr-4"><ThemeToggle /></div>
-               
+                    <button className="text-2xl text-indigo-600"><div className="mr-4"><ThemeToggle /></div>
+                    Dark Mode
+                    </button>
                   </nav>
                 </div>
               </div>
