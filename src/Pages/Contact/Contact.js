@@ -269,7 +269,7 @@ const Contact = () => {
         </div>
 
         <div className="border border-indigo-600 flex justify-between flex-wrap px-10">
-         <div className="w-72 h-40 border border-indigo-600">
+         <div className="w-72 my-10 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="border border-indigo-600 dark:text-white dark:bg-slate-700">
@@ -280,7 +280,7 @@ const Contact = () => {
                  </p>
                </div>
          </div>
-         <div className="w-72 h-40 border border-indigo-600">
+         <div className="w-72 my-10 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
@@ -322,7 +322,7 @@ const Contact = () => {
                  </div>
            </div>
          </div>
-         <div className="w-72 h-40 border border-indigo-600">
+         <div className="w-72 my-10 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
@@ -333,7 +333,7 @@ const Contact = () => {
                  </p>
                </div>
          </div>
-         <div className="w-72 h-40 border border-indigo-600">
+         <div className="w-72 my-10 h-40 border border-indigo-600">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1">
                  <div className="dark:text-white dark:bg-slate-700">
