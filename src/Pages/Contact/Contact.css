@@ -1,0 +1,57 @@
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 20px 10px rgb(0 0 0 / 5%);
+    margin: 0 5px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.social-links a .fa-brands {
+    font-size: 20px;
+    line-height: 50px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+
+.social-links a .fa-solid {
+    font-size: 20px;
+    line-height: 50px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+
+.social-links a::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  background: #000;
+  background: linear-gradient(-45deg, #818cf8, #312e81);
+  position: absolute;
+  transition: 0.5s;
+}
+
+.social-links a:hover::after {
+  top: 0;
+}
+
+.social-links a:hover .fa {
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: translateY(-10px);
+}
