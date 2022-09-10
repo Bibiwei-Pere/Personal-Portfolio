@@ -271,7 +271,7 @@ const Contact = () => {
         <div className="grid gap-1 grid-cols-2 grid-rows-2 mx-auto px-5 pb-24 items-center">
          <div className="border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
-               <div className="flex px-5 flex-row items-center">
+               <div className="grid gap-1 grid-cols-1 grid-rows-2 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
@@ -282,7 +282,7 @@ const Contact = () => {
          </div>
          <div className="border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
-               <div className="flex px-5 flex-row items-center">
+               <div className="grid gap-1 grid-cols-1 grid-rows-2 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
@@ -324,7 +324,7 @@ const Contact = () => {
          </div>
          <div className="border border-indigo-600 mx-auto p-5">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
-               <div className="flex px-5 flex-row items-center">
+               <div className="grid gap-1 grid-cols-1 grid-rows-2 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
@@ -335,7 +335,7 @@ const Contact = () => {
          </div>
          <div className="border border-indigo-600 mx-auto p-5">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
-               <div className="flex px-5 flex-row items-center">
+               <div className="grid gap-1 grid-cols-1 grid-rows-2 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                   <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
