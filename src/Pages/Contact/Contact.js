@@ -261,16 +261,16 @@ const Contact = () => {
           </motion.div>
         </div>
         
-        <div className="container">
+        <div className="container mx-auto">
         <div className="my-8 text-center">
           <h3 className="text-4xl uppercase font-extrabold">
           Connect with me
           </h3>
         </div>
 
-        <div className="container mx-auto flex px-5 pb-24 md:flex-row md:flex-wrap items-center">
+        <div className="mx-auto flex px-5 pb-24 md:flex-row md:flex-wrap items-center">
          <div className="w-full md:w-1/2 border border-indigo-600 mx-auto p-5">
-           <div className="flex px-5 flex-row items-center">
+           <div className="grid gap-4 grid-cols-2 grid-rows-2 px-5 items-center">
              <span className="text-indigo-700 text-3xl">My Address</span>
                <div className="flex px-5 flex-row items-center">
                  <div className="dark:text-white dark:bg-slate-700">
