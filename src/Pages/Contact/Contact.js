@@ -312,7 +312,7 @@ const Contact = () => {
                     </a>
                  </div>
          </div>
-         <div className="w-72 my-10 p-5 h-40 border border-dark rounded-md">
+         <div className="w-72 my-10 p-5 h-40 border-2 border-dark rounded-md">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
            <a
               rel="noreferrer"
@@ -325,7 +325,7 @@ const Contact = () => {
              </p>
            </a>    
          </div>
-         <div className="w-72 my-10 p-5 h-40 border border-dark rounded-md">
+         <div className="w-72 my-10 p-5 h-40 border-2 border-dark rounded-md">
                <span className="block text-indigo-700 text-3xl text-center">Contact</span>
                <a
               rel="noreferrer"
