@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
       
 
-      <div className="flex w-72 justify-between sm:w-72 mx-auto items-center">
+      <div className="flex w-48 justify-between mx-auto items-center">
       <Link to="/" className="sm:mb-0">
           <img
             src={logo}
