@@ -101,7 +101,7 @@ const Navbar = () => {
                 </NavLink>
               </nav>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <div className="inline-block"><ThemeToggle /></div>
+                <ThemeToggle />
                 <a
                   rel="noreferrer"
                   href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
