@@ -13,6 +13,7 @@ import {
 } from "../../Animations/Animations";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import './Contact.css';
 
 const Contact = () => {
 
