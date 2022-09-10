@@ -101,7 +101,7 @@ const Navbar = () => {
                 </NavLink>
               </nav>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <ThemeToggle />
+                <div className="inline-block"><ThemeToggle /></div>
                 <a
                   rel="noreferrer"
                   href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
@@ -144,8 +144,6 @@ const Navbar = () => {
                     </Link>
                   </div>
                   <div className="-mr-2">
-                  <div className="flex items-center justify-between">
-                    <ThemeToggle />
                     <button
                       type="button"
                       className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -169,7 +167,6 @@ const Navbar = () => {
                       </svg>
                     </button>
                   </div>
-                 </div>
                 </div>
                 <div className="mt-6">
                   <nav className="grid gap-y-8">
