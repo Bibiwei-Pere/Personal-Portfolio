@@ -268,14 +268,14 @@ const Contact = () => {
           </h3>
         </div>
 
-        <div className="grid gap-x-3 gap-y-9 grid-cols-2 grid-rows-2 sm:grid-cols-1 sm:grid-rows-4 mx-auto pb-24 items-center">
+        <div className="border border-indigo-600 grid gap-x-3 gap-y-9 grid-cols-2 grid-rows-2 sm:grid-cols-1 sm:grid-rows-4 mx-auto pb-24 items-center">
          <div className="w-full h-40 border border-indigo-600 mx-auto p-15">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
-                 <div className="dark:text-white dark:bg-slate-700">
+                 <div className="border border-indigo-600 dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
                  </div>
-                 <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+                 <p className="border border-indigo-600 text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
                  </p>
                </div>
