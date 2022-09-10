@@ -268,7 +268,7 @@ const Contact = () => {
           </h3>
         </div>
 
-        <div className="border border-indigo-600 flex justify-between px-10">
+        <div className="border border-indigo-600 flex justify-between flex-wrap px-10">
          <div className="w-72 h-40 border border-indigo-600">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <div className="grid gap-x-1 grid-cols-2 grid-rows-1 items-center">
