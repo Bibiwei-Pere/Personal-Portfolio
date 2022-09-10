@@ -338,10 +338,10 @@ const Contact = () => {
                <div className="grid gap-x-2 grid-cols-2 grid-rows-1 items-center">
                  <div className="dark:text-white dark:bg-slate-700">
                   <i className="fa-brands fa-telegram"></i>
+                 </div>
                   <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
                  +2348118333284
                  </p>
-               </div>
            </div>
          </div>
       </div>  
