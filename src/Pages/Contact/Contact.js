@@ -269,23 +269,23 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-between flex-wrap px-10">
-         <div className="w-72 my-10 p-5 h-40 border border-dark rounded-md">
+         <div className="w-72 my-10 p-5 h-40 border-2 border-dark rounded-md">
            <span className="block text-indigo-700 text-3xl text-center">My Address</span>
                <p className="text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
                </p>
           </div>
-         <div className="w-72 my-10 p-5 h-40 border border-dark rounded-md">
+         <div className="w-72 my-10 p-5 h-40 border-2 border-dark rounded-md">
            <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
                <div className="social-links flex px-5 flex-row items-center sm:mt-15 sm:max-w-xl mt-5">
                     <a
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://t.me/Bibiwei_Pere"
+                href="https://www.facebook.com/profile.php?id=100074182476935"
               >
-                <i className="fa-brands fa-telegram"></i>
-                    </a>
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
                     <a
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
@@ -306,9 +306,9 @@ const Contact = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://t.me/Bibiwei_Pere"
+                href="https://www.linkedin.com/in/bibiwei-pere-9a34b024b"
               >
-                <i className="fa-brands fa-telegram"></i>
+                <i className="fa-brands fa-linkedin"></i>
                     </a>
                  </div>
          </div>
@@ -318,7 +318,7 @@ const Contact = () => {
               rel="noreferrer"
               className="dark:text-white dark:bg-slate-700"
               target="_blank"
-              href="https://t.me/Bibiwei_Pere"
+              href="mailto:bibiweijnr@gmail.com"
               >
              <p className="text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
               bibiweipere@gmail.com
