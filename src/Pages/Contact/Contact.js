@@ -269,15 +269,15 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-between flex-wrap px-10">
-         <div className="w-72 my-10 h-40 border border-indigo-600">
+         <div className="w-72 my-10 h-40 bg-gray-800 rounded">
            <span className="block text-indigo-700 text-3xl text-center font-bold">My Address</span>
-               <p className="border border-indigo-600 text-center text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-bold">
+               <p className="border border-indigo-600 text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
                  Giwa-amu Street, Estate, Warri, Delta State, Nigeria
                </p>
           </div>
-         <div className="w-72 my-10 h-40 border border-indigo-600">
-           <span className="block text-indigo-700 text-3xl text-center">Social Profiles</span>
-               <div className="social-links flex px-5 flex-row items-center sm:mt-5 sm:max-w-xl md:mt-5">
+         <div className="w-72 my-10 h-40 bg-gray-800 rounded">
+           <span className="block text-indigo-700 text-3xl text-center font-bold">Social Profiles</span>
+               <div className="social-links flex px-5 flex-row items-center sm:mt-15 sm:max-w-xl mt-5">
                     <a
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
@@ -312,7 +312,7 @@ const Contact = () => {
                     </a>
                  </div>
          </div>
-         <div className="w-72 my-10 h-40 border border-indigo-600">
+         <div className="w-72 my-10 h-40 bg-gray-800 rounded">
            <span className="block text-indigo-700 text-3xl text-center">Email</span>
            <a
               rel="noreferrer"
@@ -320,20 +320,20 @@ const Contact = () => {
               target="_blank"
               href="https://t.me/Bibiwei_Pere"
               >
-             <p className="text-center text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-bold">
+             <p className="text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
               bibiweipere@gmail.com
              </p>
            </a>    
          </div>
          <div className="w-72 my-10 h-40 border border-indigo-600">
-               <span className="block text-indigo-700 text-3xl text-center">Contact</span>
+               <span className="block text-indigo-700 text-3xl text-center font-bold">Contact</span>
                <a
               rel="noreferrer"
               className="dark:text-white dark:bg-slate-700"
               target="_blank"
               href="https://t.me/Bibiwei_Pere"
               >
-             <p className="text-center text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-bold">
+             <p className="text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
               +2348118333284
              </p>
              </a>    
