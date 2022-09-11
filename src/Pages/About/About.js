@@ -147,11 +147,11 @@ const About = () => {
           <div className="skills_left">
             <div className="my-8 text-center">
               <span className="text-indigo-700 text-3xl md:font-bold">Skills</span>
-              <h3 className="text-3xl uppercase font-extrabold">
+              <h3 className="text-3xl md:text-4xl uppercase font-extrabold">
                 Programming Skills
               </h3>
             </div>
-            <div className="my-8 w-4/6">
+            <div className="my-8">
               <p>
                 For about a year now, have been accomplishing enough skills
                 with modern Web Development, new generation web and app
