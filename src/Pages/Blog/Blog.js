@@ -43,7 +43,7 @@ const Blog = () => {
       <Helmet>
         <title>Bibiwei Pere - Blogs</title>
       </Helmet>
-      <div className="flex px-6 items-center dark:bg-gray-900 justify-center lg:h-screen bg-gray-200">
+      <div className="flex px-6 py-20 items-center dark:bg-gray-900 justify-center lg:h-screen bg-gray-200">
         <div className="container">
           <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-5 md:p-20 mx-2">
             <div className="text-center">
