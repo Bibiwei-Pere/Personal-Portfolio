@@ -106,7 +106,7 @@ const Services = () => {
 
   return (
     <section className="container px-6 mx-auto py-20" ref={ref}>
-        <h2 className="mb-4 text-4xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+        <h2 className="mb-4 text-4xl md:text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
           Our
           <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
         </h2>
