@@ -33,7 +33,7 @@ const About = () => {
       <section className="text-gray-700 px-6 body-font dark:text-white pt-20">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h2 className="text-5xl sm:text-3xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+            <h2 className="text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
             <span className="text-indigo-600 dark:text-indigo-500"> Developer</span>
           </h2>
@@ -74,7 +74,7 @@ const About = () => {
       </section>
       <section className="edu_cation pb-8">
         <div className="educationWrapper">
-          <div className="dark:text-white text-4xl sm:text-2xl text-center uppercase font-extrabold">Education</div>
+          <div className="dark:text-white text-3xl sm:text-2xl text-center uppercase font-extrabold">Education</div>
 
           <div className="timeline">
             <ul>
@@ -151,7 +151,7 @@ const About = () => {
           <div className="skills_left">
             <div className="my-8 text-center">
               <span className="text-indigo-700 text-3xl font-bold">Skills</span>
-              <h3 className="text-4xl uppercase font-extrabold">
+              <h3 className="text-3xl uppercase font-extrabold">
                 Programming Skills
               </h3>
             </div>
