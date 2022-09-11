@@ -30,10 +30,10 @@ const About = () => {
       <Helmet>
         <title>Bibiwei | About</title>
       </Helmet>
-      <section className="text-gray-700 px-6 body-font dark:text-white pt-20">
+      <section className="text-gray-700 px-6 body-font dark:text-white mt-8 md:mt-20">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h2 className="text-4xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
+            <h2 className="text-4xl md:text-5xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
             Web Application
             <span className="text-indigo-600 dark:text-indigo-500"> Developer</span>
           </h2>
@@ -54,27 +54,23 @@ const About = () => {
               </a>
               <Link to="/contact">
                 <button className="inline-flex ml-4 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Contact Me
+                  Contact
                 </button>
               </Link>
             </div>
           </div>
-          <motion.div
-            initial="hidden"
-            animate={viewDiv && 'visible'}
-            variants={HeroAnimation}
-            className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">          
-            <img
+          <div>
+          <img
               className="object-cover object-center rounded-full"
               alt="hero"
               src={hero}
             />
-          </motion.div>
+          </div>
         </div>
       </section>
       <section className="edu_cation pb-8">
         <div className="educationWrapper">
-          <div className="dark:text-white text-3xl text-center uppercase font-extrabold">Education</div>
+          <div className="dark:text-white text-4xl md:text-5xl text-center uppercase font-extrabold">Education</div>
 
           <div className="timeline">
             <ul>
@@ -150,7 +146,7 @@ const About = () => {
         <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
           <div className="skills_left">
             <div className="my-8 text-center">
-              <span className="text-indigo-700 text-3xl font-bold">Skills</span>
+              <span className="text-indigo-700 text-3xl md:font-bold">Skills</span>
               <h3 className="text-3xl uppercase font-extrabold">
                 Programming Skills
               </h3>
