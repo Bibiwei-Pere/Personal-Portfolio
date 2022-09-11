@@ -71,6 +71,8 @@ const Blog = () => {
               </div>
               <div className="m-3">
                 <a
+                  rel="noreferrer"
+                  target='_blank'
                   href="https://www.linkedin.com/in/bibiwei-pere-9a34b024b"
                   title="Bibiwei Pere On LinkedIn"
                   className="md:w-32 bg-white tracking-wide dark:bg-gray-900 hover:dark:bg-indigo-600 dark:text-white text-gray-800 font-bold rounded border-2 border-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
