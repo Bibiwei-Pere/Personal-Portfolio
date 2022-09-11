@@ -30,8 +30,7 @@ const Banner = () => {
           <p className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
             A passionate individual who always thrive to work on end to end
             products which develop sustainable and scalable social and technical
-            systems to create impact. I’m currently learning JavaScript more
-            advance
+            systems to create impact. I’m currently learning more advance JavaScript.
           </p>
           <div className="flex flex-col">
             <div className="social-links my-8 lg:my-4">
