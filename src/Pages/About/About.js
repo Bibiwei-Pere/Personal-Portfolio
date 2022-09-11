@@ -74,7 +74,7 @@ const About = () => {
       </section>
       <section className="edu_cation pb-8">
         <div className="educationWrapper">
-          <div className="dark:text-white text-3xl sm:text-2xl text-center uppercase font-extrabold">Education</div>
+          <div className="dark:text-white text-3xl text-center uppercase font-extrabold">Education</div>
 
           <div className="timeline">
             <ul>
