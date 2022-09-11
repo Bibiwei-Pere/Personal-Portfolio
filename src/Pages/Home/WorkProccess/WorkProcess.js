@@ -30,7 +30,7 @@ const WorkProcess = () => {
   return (
     <section ref={ref} className="container px-6 mx-auto py-20">
       <div className="text-center mb-28">
-        <h2 className="my-6 text-5xl text-center tracking-tight font-extrabold text-dark dark:text-white sm:leading-none">
+        <h2 className="my-6 text-4xl text-center tracking-tight font-extrabold text-dark dark:text-white sm:leading-none">
           How I
           <span className="text-indigo-600 dark:text-indigo-500"> Work</span>
         </h2>
