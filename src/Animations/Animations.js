@@ -146,7 +146,7 @@ export const ContactRightAnimation = {
 
 export const HeroAnimation = {
 hidden: {
-    x: "100vw",
+    x: "-100vw",
     opacity: 0,
   },
   visible: {
