@@ -60,6 +60,8 @@ const Blog = () => {
             <div className="flex flex-wrap mt-10 justify-center">
               <div className="m-3">
                 <a
+                  rel="noreferrer"
+                  target='_blank'
                   href="https://www.facebook.com/profile.php?id=100074182476935"
                   title="Bibiwei Pere On Facebook"
                   className="md:w-32 bg-white tracking-wide dark:bg-gray-900 hover:dark:bg-indigo-600 dark:text-white text-gray-800 font-bold rounded border-2 border-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
