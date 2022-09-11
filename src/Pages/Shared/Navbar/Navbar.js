@@ -36,7 +36,7 @@ const Navbar = () => {
                     src={logo}
                     alt="logo"
                   />
-                </Link><ThemeToggle />
+                </Link>
               </motion.div>
               <div className="-mr-2 -my-2 md:hidden">
 
@@ -260,16 +260,17 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="py-6 px-5 space-y-6">
-                <div>
-                  <a
-                    rel="noreferrer"
-                    target={"_blank"}
-                    href="https://drive.google.com/file/d/13InTZi1mAYqxdHQrN-NfIP-fr_BgEcip/view?usp=sharing"
-                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                  >
-                    RESUME
-                  </a>
-                </div>
+                <div className="md:hidden flex items-center justify-evenly flex-1">
+                <ThemeToggle />
+                <a
+                  rel="noreferrer"
+                  href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
+                  target="_blank"
+                  className="ml-8 mr-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                >
+                  RESUME
+                </a>
+              </div>
               </div>
             </div>
           </div>
