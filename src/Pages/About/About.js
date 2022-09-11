@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import './About.css';
 import { Link } from 'react-router-dom';
 import hero from "./../../Assets/Images/hero.jpg";
+import { HeroAnimation } from "../../Animations/Animations";
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 const About = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
+
+  const [viewDiv, setViewDiv] = useState(false);
+
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      setViewDiv(true);
+    }
+    if (!inView) {
+      setViewDiv(false);
+    }
+  }, [inView, animation]);
   return (
     <>
       <Helmet>
@@ -39,13 +59,17 @@ const About = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <motion.div
+            initial="hidden"
+            animate={viewDiv && 'visible'}
+            variants={HeroAnimation}
+            className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">          
             <img
               className="object-cover object-center rounded-full"
               alt="hero"
               src={hero}
             />
-          </div>
+          </motion.div>
         </div>
       </section>
       <section className="edu_cation pb-8">
