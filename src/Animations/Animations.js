@@ -141,3 +141,17 @@ export const ContactRightAnimation = {
     transition: { duration: 1.5, delay: 1.5, type: "spring" },
   },
 };
+
+// About Animations
+
+export const HeroAnimation = {
+hidden: {
+    x: "100vw",
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 1.5, delay: 1.5, type: "spring" },
+  },
+};
