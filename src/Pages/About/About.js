@@ -10,7 +10,7 @@ const About = () => {
       <Helmet>
         <title>Bibiwei | About</title>
       </Helmet>
-      <section className="text-gray-700 px-6 body-font dark:text-white pt-20 sm:pt-8">
+      <section className="text-gray-700 px-6 body-font dark:text-white pt-20">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h2 className="text-5xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
@@ -126,7 +126,7 @@ const About = () => {
         <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
           <div className="skills_left">
             <div className="my-8 text-center">
-              <span className="text-indigo-700 text-3xl">Skills</span>
+              <span className="text-indigo-700 text-3xl font-bold">Skills</span>
               <h3 className="text-4xl uppercase font-extrabold">
                 Programming Skills
               </h3>
@@ -177,6 +177,15 @@ const About = () => {
               </div>
               <div className="my-8">
                 <div className="mb-1 text-base font-medium">Styled Components</div>
+                <div className="w-full h-4 bg-transparent rounded-full">
+                  <div
+                    className="h-4 bg-indigo-600 rounded-full"
+                    style={{ width: '100%' }}
+                  ></div>
+                </div>
+              </div>
+              <div className="my-8">
+                <div className="mb-1 text-base font-medium">3D Logo</div>
                 <div className="w-full h-4 bg-transparent rounded-full">
                   <div
                     className="h-4 bg-indigo-600 rounded-full"
