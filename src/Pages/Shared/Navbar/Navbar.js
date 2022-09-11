@@ -36,8 +36,8 @@ const Navbar = () => {
                     src={logo}
                     alt="logo"
                   />
-                </Link>
-              </motion.div><ThemeToggle />
+                </Link><ThemeToggle />
+              </motion.div>
               <div className="-mr-2 -my-2 md:hidden">
 
                 <button
