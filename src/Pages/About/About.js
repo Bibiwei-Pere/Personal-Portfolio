@@ -39,9 +39,9 @@ const About = () => {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="border-3 border-dark">
           <img
-              className="object-cover object-center rounded-lg border-3 border-dark"
+              className="object-cover object-center rounded-lg"
               alt="hero"
               src={hero}
             />
