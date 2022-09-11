@@ -260,8 +260,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="py-6 px-5 space-y-6">
-                <div className="md:hidden flex items-center justify-evenly flex-1">
-                <ThemeToggle />
+                <div className="md:hidden flex items-center justify-between flex-1">
                 <a
                   rel="noreferrer"
                   href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
@@ -270,6 +269,7 @@ const Navbar = () => {
                 >
                   RESUME
                 </a>
+                <ThemeToggle />              
               </div>
               </div>
             </div>
