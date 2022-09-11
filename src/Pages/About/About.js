@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded-lg"
+              className="object-cover object-center rounded-full"
               alt="hero"
               src={hero}
             />
@@ -50,7 +50,7 @@ const About = () => {
       </section>
       <section className="edu_cation pb-8">
         <div className="educationWrapper">
-          <div className="workheading dark:text-white">Education</div>
+          <div className="dark:text-white text-4xl uppercase font-extrabold">Education</div>
 
           <div className="timeline">
             <ul>
