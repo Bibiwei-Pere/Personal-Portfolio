@@ -110,7 +110,7 @@ const Services = () => {
           Our
           <span className="text-indigo-600 dark:text-indigo-500"> Services</span>
         </h2>
-        <p className="text-3xl text-left dark:text-gray-400">
+        <p className="text-xl text-left dark:text-gray-400">
           It's important to have unique and attractive designs so that your audience sticks around with your site. Check out some of the services I render.
         </p>
       <div
