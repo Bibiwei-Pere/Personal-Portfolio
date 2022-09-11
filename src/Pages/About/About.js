@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import './About.css';
 import { Link } from 'react-router-dom';
-import hero from "./../../Assets/Images/hero.png";
+import hero from "./../../Assets/Images/hero.jpg";
 
 const About = () => {
   return (
