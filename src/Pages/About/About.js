@@ -1,30 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import './About.css';
 import { Link } from 'react-router-dom';
 import hero from "./../../Assets/Images/hero.jpg";
-import { HeroAnimation } from "../../Animations/Animations";
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 const About = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.2,
-    triggerOnce: true,
-  });
-
-  const [viewDiv, setViewDiv] = useState(false);
-
-  const animation = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      setViewDiv(true);
-    }
-    if (!inView) {
-      setViewDiv(false);
-    }
-  }, [inView, animation]);
   return (
     <>
       <Helmet>
@@ -70,7 +50,7 @@ const About = () => {
       </section>
       <section className="edu_cation pb-8">
         <div className="educationWrapper">
-          <div className="dark:text-white text-4xl md:text-5xl text-center uppercase font-extrabold">Education</div>
+          <div className="dark:text-white text-4xl text-center uppercase font-extrabold">Education</div>
 
           <div className="timeline">
             <ul>
