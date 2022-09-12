@@ -263,7 +263,7 @@ const Contact = () => {
         
         <div className="container mx-auto items-center p-15">
         <div className="my-8 text-center">
-          <h3 className="text-4xl uppercase font-extrabold">
+          <h3 className="text-3xl md:text-4xl uppercase font-extrabold">
           Connect with me
           </h3>
         </div>
@@ -298,9 +298,9 @@ const Contact = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://t.me/Bibiwei_Pere"
+                href="https://twitter.com/Bibiwei_Pere?t=q-mMQLff5YLlq42Mv31Itw&s=09"
               >
-                <i className="fa-brands fa-telegram"></i>
+                <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a
                 rel="noreferrer"
