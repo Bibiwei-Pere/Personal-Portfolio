@@ -129,7 +129,7 @@ const Contact = () => {
       <Helmet>
         <title>Bibiwei Pere - Contact</title>
       </Helmet>
-      <section className="contact_section text-gray-700 body-font dark:text-white mt-20 py-20" ref={ref}>
+      <section className="contact_section text-gray-700 body-font dark:text-white mt-5 md:mt-20 md:py-20" ref={ref}>
         <ToastContainer
           position="top-right"
           autoClose={3000}
@@ -142,10 +142,10 @@ const Contact = () => {
           pauseOnHover
         />
         <div className="text-center mb-4">
-          <p className="text-sm leading-7 dark:text-white text-gray-500 font-regular uppercase">
+          <p className="text-sm leading-7 dark:text-white text-gray-500 font-regular md:font-bold uppercase">
             Contact
           </p>
-          <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">
+          <h3 className="text-4xl md:text-5xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">
             Get In <span className="text-indigo-600">Touch</span>
           </h3>
         </div>
