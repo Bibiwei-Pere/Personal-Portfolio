@@ -138,7 +138,7 @@ const About = () => {
                 programming language.
               </p>
             </div>
-            <div className="progress_bar w-3/6 mx-auto">
+            <div className="progress_bar w-full md:w-3/6 mx-auto">
               <div className="my-4">
                 <div className="mb-1 text-base font-medium">HTML</div>
                 <div className="w-full h-4 bg-transparent rounded-full">
