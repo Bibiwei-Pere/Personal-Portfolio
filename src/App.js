@@ -37,6 +37,8 @@ const Footer = lazy(() => import('./Pages/Shared/Footer/Footer'));
 
 const NotFound = lazy(() => import('./Pages/NotFound/NotFound'));
 
+const Licensing = lazy(() => import('./Pages/Licensing/Licensing'));
+
 function App() {
   return (
     <>
@@ -54,6 +56,7 @@ function App() {
                   <Route path="/blog" element={<Blog />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<Contact />} />
+                  <Route path="/licensing" element={<Licensing />} />
                 </Route>
                 <Route path="*" element={<NotFound />} />
               </Routes>
