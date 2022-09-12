@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="edu_cation pb-8">
+      <section className="edu_cation pb-5">
         <div className="educationWrapper">
           <div className="dark:text-white text-4xl text-center uppercase font-extrabold">Education</div>
 
@@ -123,10 +123,10 @@ const About = () => {
       </section>
 
       <section className="text-gray-700 body-font dark:text-white pb-24">
-        <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
           <div className="skills_left">
             <div className="my-8 text-center">
-              <span className="text-indigo-700 text-3xl md:font-bold">Skills</span>
+              <span className="text-indigo-700 text-2xl md:text-3xl md:font-bold">Skills</span>
               <h3 className="text-3xl md:text-4xl uppercase font-extrabold">
                 Programming Skills
               </h3>
