@@ -66,10 +66,10 @@ const Contact = () => {
     } 
     emailjs
       .send(
-        "service_0qurx2z",
-        "template_68afoel",
+        "service_klmnlpa",
+        "template_yhgczxa",
         values,
-        "user_o7O07d34s7XBqpunKdUtT"
+        "bRQYhsDt_AvcZUIkc"
       )
       .then(
         (res) => {
