@@ -1,14 +1,14 @@
 <img src="https://raw.githubusercontent.com/Adrenaline9/NineStudios/main/src/assets/images/image7.jpg" alt="NineStudios" />
 
-## NineStudios
+## Personal Portfolio
 
-**Live preview: [https://nine-studios.netlify.app/](https://nine-studios.netlify.app/)**
+**Live preview: [https://bibiweipere.netlify.app/](https://nine-studios.netlify.app/)**
 
 ---
 
 ## Project Description
 
-NineStudios is a landing page for a photography studio. It is a well-designed and `responsive` landing page with `dark mode` feature. It's basically created with `react js`.
+This is my Personal Portfolio Website created with `react`, `tailwindcss` and lots of other packages. It is a well-designed, `responsive` page with `dark mode` feature.
 
 ---
 
@@ -20,7 +20,7 @@ NineStudios is a landing page for a photography studio. It is a well-designed an
 
 ## Other projects
 
-📚 [All Adrenaline Nine Projects](https://github.com/Adrenaline9/A9-projects)
+📚 [All Bibiwei Pere's Projects](https://github.com/Bibiwei-Pere/All-projects)
 
 ---
 
@@ -34,7 +34,7 @@ Like my works and want to support me?
 
 ## Feedback
 
-If you have any feedback, please send us an email at nine.adrenaline@gmail.com
+If you have any feedback, please send us an email at bibiweipere@gmail.com
 
 ## License
 
