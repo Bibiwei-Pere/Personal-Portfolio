@@ -151,7 +151,7 @@ const Contact = () => {
         </div>
         <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
           <motion.div
-            className="lottie"
+            className="lottie pb-5"
             initial="hidden"
             animate={viewDiv && "visible"}
             variants={ContactLeftAnimation}
