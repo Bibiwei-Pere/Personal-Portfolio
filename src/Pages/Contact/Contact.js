@@ -326,18 +326,11 @@ const Contact = () => {
            </a>    
          </div>
          <div className="w-72 my-10 p-5 h-40 border-2 border-dark rounded-md">
-               <span className="block text-indigo-700 text-3xl text-center">Contact</span>
-               <a
-              rel="noreferrer"
-              className="dark:text-white dark:bg-slate-700"
-              target="_blank"
-              href="https://t.me/Bibiwei_Pere"
-              >
+             <span className="block text-indigo-700 text-3xl text-center">Contact</span>         
              <p className="text-center text-3xl dark:text-white text-dark sm:mt-15 sm:max-w-xl mt-5 text-lg">
               +2348118333284
              </p>
-             </a>    
-          </div>
+           </div>
       </div>  
       </div>
       </section>
