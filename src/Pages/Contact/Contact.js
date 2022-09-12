@@ -129,7 +129,7 @@ const Contact = () => {
       <Helmet>
         <title>Bibiwei Pere - Contact</title>
       </Helmet>
-      <section className="contact_section text-gray-700 body-font dark:text-white mt-5 md:mt-20 md:py-20" ref={ref}>
+      <section className="contact_section text-gray-700 body-font dark:text-white mt-10 md:mt-20 md:py-20" ref={ref}>
         <ToastContainer
           position="top-right"
           autoClose={3000}
