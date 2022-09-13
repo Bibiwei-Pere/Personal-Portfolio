@@ -33,8 +33,8 @@ const Licensing = () => {
           IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
           SOFTWARE.
         </p>
-        <div className="flex flex-col md:flex-row items-center justify-evenly mt-8">
-          <div className="p-2 h-12">
+        <div className="flex flex-col md:flex-row items-center justify-between md:justify-evenly mt-8">
+          <div className="p-2 h-15">
             <h3 className="text-left dark:text-white text-3xl font-bold">Permissions</h3>
             <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li class="flex items-center space-x-3">
@@ -55,7 +55,7 @@ const Licensing = () => {
               </li>
               </ul>
           </div>
-          <div className="h-12 p-2 mt-5 md:mt-0">
+          <div className="h-15 p-2 mt-5 md:mt-0">
             <h3 className="text-left dark:text-white text-3xl font-bold">Conditions</h3>
             <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li class="flex items-center space-x-3">
