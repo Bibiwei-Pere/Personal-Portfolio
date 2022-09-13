@@ -64,10 +64,14 @@ const Licensing = () => {
           </div>
           <div className="p-2">
             <h3 className="text-center text-3xl font-bold">Limitations</h3>
-            <ul className="list-disc list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
-              <li>Liability
+            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+              <li class="flex items-center space-x-3">
+               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" viewBox="-2 -3 5 5" xmlns="http://www.w3.org/2000/svg">  <path d="M -2 -2 L -1 -1 L -2 0 L -1 1 L 0 0 L 1 1 M 1 1 L 2 0 L 1 -1 L 2 -2 L 1 -3 L 0 -2 L -1 -3 L -2 -2" fill="#ff0000"/></svg>
+               <span>Liability</span>              
               </li>
-              <li>Warranty
+              <li class="flex items-center space-x-3">
+               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" viewBox="-2 -3 5 5" xmlns="http://www.w3.org/2000/svg">  <path d="M -2 -2 L -1 -1 L -2 0 L -1 1 L 0 0 L 1 1 M 1 1 L 2 0 L 1 -1 L 2 -2 L 1 -3 L 0 -2 L -1 -3 L -2 -2" fill="#ff0000"/></svg>
+               <span>Warranty</span>              
               </li>
             </ul>
           </div>
