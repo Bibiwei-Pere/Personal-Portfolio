@@ -9,7 +9,7 @@ const Licensing = () => {
           <span className="text-indigo-600 dark:text-indigo-500"> Licence</span>
         </h2>
          
-        <p className="text-left text-3xl dark:text-white text-dark mt-8 max-w-xl text-lg">
+        <p className="text-left text-3xl dark:text-white text-dark mt-8 text-lg">
           Permission is hereby granted, free of charge, to any person obtaining
           a copy of this software and associated documentation files (the
           "Software"), to deal in the Software without restriction, including
@@ -18,7 +18,7 @@ const Licensing = () => {
           permit persons to whom the Software is furnished to do so, subject to
           the following conditions: 
          </p>
-         <p className="text-left text-3xl dark:text-white text-dark mt-5 max-w-xl text-lg">
+         <p className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
           The above copyright notice and this
           permission notice shall be included in all copies or substantial
           portions of the Software. 
@@ -33,10 +33,10 @@ const Licensing = () => {
           IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
           SOFTWARE.
         </p>
-        <div className="flex items-center justify-evenly">
-          <div>
+        <div className="flex items-center justify-evenly mt-8">
+          <div className="p-2">
             <h3 className="text-center text-3xl font-bold">Permissions</h3>
-            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+            <ul className="list-disc list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li>Commercial Use
               </li>
               <li>Distribution
@@ -47,24 +47,24 @@ const Licensing = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-center text-3xl font-bold">Permissions</h3>
-            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+          <div className="p-2">
+            <h3 className="text-center text-3xl font-bold">Conditions</h3>
+            <ul className="list-disc list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li>License and copyright notice
               </li>
               </ul>
           </div>
-          <div>
-            <h3 className="text-center text-3xl font-bold">Permissions</h3>
-            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+          <div className="p-2">
+            <h3 className="text-center text-3xl font-bold">Limitations</h3>
+            <ul className="list-disc list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li>Liability
               </li>
               <li>Warranty
               </li>
-              </ul>
+            </ul>
           </div>
         </div>
-        <h3 className="text-center text-3xl dark:text-white text-dark mt-5 text-lg font-bold">
+        <h3 className="text-center text-3xl dark:text-white text-dark mt-10 text-lg font-bold">
          Copyright (c) 2022 Bibiwei Pere
         </h3>
       </div>
