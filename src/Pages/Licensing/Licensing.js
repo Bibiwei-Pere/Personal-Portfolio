@@ -68,15 +68,15 @@ const Licensing = () => {
             <h3 className="text-left text-3xl font-bold">Limitations</h3>
             <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li class="flex items-center space-x-3">
-               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" viewBox="-2 -3 5 5" xmlns="http://www.w3.org/2000/svg">  <path d="M -2 -2 L -1 -1 L -2 0 L -1 1 L 0 0 L 1 1 M 1 1 L 2 0 L 1 -1 L 2 -2 L 1 -3 L 0 -2 L -1 -3 L -2 -2" fill="#ff0000"/></svg>
+               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="-0.857 -1.011 2.179 2.072">  <path d="M -0.857 -0.731 L 0 0 L -0.798 0.815 L -0.516 1.061 L 0.237 0.24 L 1.069 1.043 L 1.297 0.77 L 0.488 0.018 L 1.322 -0.735 L 1.058 -1 L 0.242 -0.223 L -0.572 -1.011" fill="#0000ff"/></svg>
                <span>Trademark use</span>              
               </li>
               <li class="flex items-center space-x-3">
-               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" viewBox="-2 -3 5 5" xmlns="http://www.w3.org/2000/svg">  <path d="M -2 -2 L -1 -1 L -2 0 L -1 1 L 0 0 L 1 1 M 1 1 L 2 0 L 1 -1 L 2 -2 L 1 -3 L 0 -2 L -1 -3 L -2 -2" fill="#ff0000"/></svg>
+               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="-0.857 -1.011 2.179 2.072">  <path d="M -0.857 -0.731 L 0 0 L -0.798 0.815 L -0.516 1.061 L 0.237 0.24 L 1.069 1.043 L 1.297 0.77 L 0.488 0.018 L 1.322 -0.735 L 1.058 -1 L 0.242 -0.223 L -0.572 -1.011" fill="#0000ff"/></svg>
                <span>Liability</span>              
               </li>
               <li class="flex items-center space-x-3">
-               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" viewBox="-2 -3 5 5" xmlns="http://www.w3.org/2000/svg">  <path d="M -2 -2 L -1 -1 L -2 0 L -1 1 L 0 0 L 1 1 M 1 1 L 2 0 L 1 -1 L 2 -2 L 1 -3 L 0 -2 L -1 -3 L -2 -2" fill="#ff0000"/></svg>
+               <svg class="flex-shrink-0 w-5 h-5 text-red-500 dark:text-red-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="-0.857 -1.011 2.179 2.072">  <path d="M -0.857 -0.731 L 0 0 L -0.798 0.815 L -0.516 1.061 L 0.237 0.24 L 1.069 1.043 L 1.297 0.77 L 0.488 0.018 L 1.322 -0.735 L 1.058 -1 L 0.242 -0.223 L -0.572 -1.011" fill="#0000ff"/></svg>
                <span>Warranty</span>              
               </li>
             </ul>
