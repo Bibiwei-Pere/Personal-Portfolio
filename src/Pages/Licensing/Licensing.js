@@ -66,7 +66,7 @@ const Licensing = () => {
           </div>
           <div className="p-2 mt-5 md:mt-0">
             <h3 className="text-left dark:text-white text-3xl font-bold">Limitations</h3>
-            <ul className="h-10 text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+            <ul className="h-15 text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li class="flex items-center space-x-3">
                <svg class="flex-shrink-0 w-4 h-3 text-red-500 dark:text-red-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="-0.857 -1.011 2.179 2.072">  <path d="M -0.857 -0.731 L 0 0 L -0.798 0.815 L -0.516 1.061 L 0.237 0.24 L 1.069 1.043 L 1.297 0.77 L 0.488 0.018 L 1.322 -0.735 L 1.058 -1 L 0.242 -0.223 L -0.572 -1.011"/></svg>
                <span>Trademark use</span>              
@@ -82,7 +82,7 @@ const Licensing = () => {
             </ul>
           </div>
         </div>
-        <h3 className="text-center italic text-3xl dark:text-white text-indigo-600 mt-20 text-lg font-bold">
+        <h3 className="text-center text-3xl dark:text-white text-indigo-600 mt-20 text-lg font-bold">
          Copyright (c) 2022 Bibiwei Pere
         </h3>
       </div>
