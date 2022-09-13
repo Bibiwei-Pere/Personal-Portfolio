@@ -36,16 +36,24 @@ const Licensing = () => {
         <div className="flex items-center justify-evenly mt-8">
           <div className="p-2">
             <h3 className="text-center text-3xl font-bold">Permissions</h3>
-            <ul className="list-square list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
-              <li>Commercial Use
+            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+              <li class="flex items-center space-x-3">
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span>Commercial Use</span>
               </li>
-              <li>Distribution
+              <li class="flex items-center space-x-3">
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span>Distribution</span>
               </li>
-              <li>Modification
+              <li class="flex items-center space-x-3">
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span>Modification</span>
               </li>
-              <li>Private use
+              <li class="flex items-center space-x-3">
+                <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span>Private use</span>
               </li>
-            </ul>
+              </ul>
           </div>
           <div className="p-2">
             <h3 className="text-center text-3xl font-bold">Conditions</h3>
