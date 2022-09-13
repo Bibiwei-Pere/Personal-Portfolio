@@ -82,10 +82,10 @@ const Licensing = () => {
             </ul>
           </div>
         </div>
+        </div>
         <h3 className="block text-center tracking-tight sm:leading-none text-3xl dark:text-white text-indigo-600 my-20 text-lg font-bold">
          Copyright (c) 2022 Bibiwei Pere
         </h3>
-        </div>
     </section>
   );
 };
