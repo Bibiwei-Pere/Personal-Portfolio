@@ -36,7 +36,7 @@ const Licensing = () => {
         <div className="flex items-center justify-evenly mt-8">
           <div className="p-2">
             <h3 className="text-center text-3xl font-bold">Permissions</h3>
-            <ul className="list-disc list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+            <ul className="list-square list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li>Commercial Use
               </li>
               <li>Distribution
@@ -49,7 +49,7 @@ const Licensing = () => {
           </div>
           <div className="p-2">
             <h3 className="text-center text-3xl font-bold">Conditions</h3>
-            <ul className="list-disc list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+            <ul className="list-triangle list-inside text-left text-3xl dark:text-white text-dark mt-5 text-lg">
               <li>License and copyright notice
               </li>
               </ul>
