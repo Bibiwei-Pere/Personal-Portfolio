@@ -33,7 +33,7 @@ const Licensing = () => {
           IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
           SOFTWARE.
         </p>
-        <div className="md:flex md:relative h-35 items-center justify-evenly mt-8">
+        <div className="md:flex h-35 mb-10 pb-10 items-center justify-evenly mt-8">
           <div className="p-5 md:h-10">
             <h3 className="text-left dark:text-white text-3xl font-bold">Permissions</h3>
             <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
@@ -82,8 +82,11 @@ const Licensing = () => {
             </ul>
           </div>
         </div>
-        </div>
-        
+        <h3 className="block text-center tracking-tight sm:leading-none text-3xl dark:text-white text-indigo-600 my-20 text-lg font-bold">
+         Copyright (c) 2022 Bibiwei Pere
+        </h3>
+       
+      </div>      
     </section>
   );
 };
