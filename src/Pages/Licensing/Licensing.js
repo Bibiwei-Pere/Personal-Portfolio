@@ -23,7 +23,7 @@ const Licensing = () => {
           permission notice shall be included in all copies or substantial
           portions of the Software. 
          </p>
-         <p className="text-left text-3xl dark:text-white text-dark mt-5 max-w-xl text-lg">   
+         <p className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">   
           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
           WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
           THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
@@ -36,13 +36,35 @@ const Licensing = () => {
         <div className="flex items-center justify-evenly">
           <div>
             <h3 className="text-center text-3xl font-bold">Permissions</h3>
-            <ul className="">
-              <li className="text-left text-3xl dark:text-white text-dark sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
+            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+              <li>Commercial Use
+              </li>
+              <li>Distribution
+              </li>
+              <li>Modification
+              </li>
+              <li>Private use
               </li>
             </ul>
           </div>
+          <div>
+            <h3 className="text-center text-3xl font-bold">Permissions</h3>
+            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+              <li>License and copyright notice
+              </li>
+              </ul>
+          </div>
+          <div>
+            <h3 className="text-center text-3xl font-bold">Permissions</h3>
+            <ul className="text-left text-3xl dark:text-white text-dark mt-5 text-lg">
+              <li>Liability
+              </li>
+              <li>Warranty
+              </li>
+              </ul>
+          </div>
         </div>
-        <h3 className="text-center text-3xl dark:text-white text-dark mt-5 max-w-xl text-lg font-bold">
+        <h3 className="text-center text-3xl dark:text-white text-dark mt-5 text-lg font-bold">
          Copyright (c) 2022 Bibiwei Pere
         </h3>
       </div>
