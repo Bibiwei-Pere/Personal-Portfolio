@@ -3,7 +3,7 @@ import React from 'react';import Projects from "./../Home/Projects/Projects";
 const Portfolios = () => {
     return (
       <>
-       <div className="mt-8 mb-20 md:my-20">
+       <div className="mt-8 md:my-32">
         <Projects />
       </div>
       </>
