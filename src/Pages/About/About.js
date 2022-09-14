@@ -10,7 +10,7 @@ const About = () => {
       <Helmet>
         <title>Bibiwei | About</title>
       </Helmet>
-      <section className="text-gray-700 px-6 body-font dark:text-white mt-5 md:py-64">
+      <section className="text-gray-700 px-6 body-font dark:text-white mt-5 md:py-80">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h2 className="text-4xl md:text-5xl text-left tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
@@ -29,7 +29,7 @@ const About = () => {
             <div className="flex justify-center">
               <a
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharig"
                 target={'_blank'}
                 className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
               >
@@ -44,7 +44,7 @@ const About = () => {
           </div>
           <div className="border-3 border-dark">
             <img
-              className="h-64 w-64 object-cover object-center rounded-lg"
+              className="h-80 w-80 object-cover object-center rounded-lg"
               alt="hero"
               src={hero}
             />
