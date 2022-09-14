@@ -86,7 +86,7 @@ const Blog = () => {
       </div>
 
       {/* Blog Start From Here */}
-      <section className="container px-6 mx-auto pb-20">
+      <section className="container px-6 mx-auto pb-64">
         <h2 className="my-12 text-5xl text-center tracking-tight font-extrabold  text-dark dark:text-white sm:leading-none">
           Recent
           <span className="text-indigo-600 dark:text-indigo-500"> Blogs</span>
