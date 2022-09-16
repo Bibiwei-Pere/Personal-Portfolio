@@ -2,7 +2,7 @@
 
 ## Personal Portfolio
 
-**Live preview: [https://bibiweipere.netlify.app/](https://bibiweipere.netlify.app/)**
+**Live preview: [Click me](https://bibiweipere.netlify.app/)**
 
 ---
 
