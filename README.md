@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/Adrenaline9/NineStudios/main/src/assets/images/image7.jpg" alt="NineStudios" />
+<img src="" alt="Personal Portfolio" />
 
 ## Personal Portfolio
 
-**Live preview: [https://bibiweipere.netlify.app/](https://nine-studios.netlify.app/)**
+**Live preview: [https://bibiweipere.netlify.app/](https://bibiweipere.netlify.app/)**
 
 ---
 
@@ -14,9 +14,9 @@ This is my Personal Portfolio Website created with `react`, `tailwindcss` and lo
 
 ## Tools Used
 
-1. Images: [Unsplash](https://unsplash.com/)
-1. UI Design: [Figma](https://www.figma.com/)
-1. Code Editor: [VS Code](https://code.visualstudio.com/)
+1. Images: [pexels](https://www.pexels.com/)
+2. UI Design: [Figma](https://www.figma.com/)
+3. Code Editor: [VS Code](https://code.visualstudio.com/) and [Stackblitz](https://stackblitz.com/)
 
 ## Other projects
 
