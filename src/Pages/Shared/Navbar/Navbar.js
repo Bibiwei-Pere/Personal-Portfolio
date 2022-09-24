@@ -263,7 +263,7 @@ const Navbar = () => {
                 <div className="md:hidden flex items-center justify-between flex-1">
                 <a
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
+                  href="https://drive.google.com/file/d/12wbqCLbP-wGR1wjGhQAjR1kLNm0QcO07/view?usp=drivesdk"
                   target="_blank"
                   className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
