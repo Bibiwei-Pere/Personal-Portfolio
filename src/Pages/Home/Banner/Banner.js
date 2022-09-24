@@ -79,7 +79,7 @@ const Banner = () => {
               <a
                 rel="noreferrer"
                 target={'_blank'}
-                href="https://drive.google.com/file/d/1ZBioCcrhS1JKp-6Azu61jH2RSeBtu_bB/view?usp=sharing"
+                href="https://drive.google.com/file/d/12wbqCLbP-wGR1wjGhQAjR1kLNm0QcO07/view?usp=drivesdk"
               >
                 Resume
               </a>
