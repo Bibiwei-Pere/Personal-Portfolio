@@ -36,13 +36,13 @@
       "_id": "62851207dad4af8316365192",
       "order": 3,
       "name": "Animated Portfolio",
-      "featureimg": "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/crunches.jpg",
       "category": ["portfolio"],
       "description": "It is a portfolio website. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, Sass, and many other animation packages. By the way, this site is not a responsive website.",
       "screenshots": [
-        "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
-        "https://i.ibb.co/G7Trpyz/Front-End-Developer-Java-Script-Expert-Freelancer-About.png",
-        "https://i.ibb.co/hgZjs4H/Front-End-Developer-Java-Script-Expert-Freelancer-Contact.png"
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/crunches.jpg",
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/crunches.jpg",
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/crunches.jpg"
       ],
       "tags": ["React", "Sass"],
       "projectlink": "https://high-animation-portfolio.netlify.app/",
