@@ -3,10 +3,10 @@
     {
       "_id": "62847a1a0d368dccd75e5154",
       "name": "Akram Sakib",
-      "featureimg": "https://i.ibb.co/Zmn0QT0/Akram-Sakib-Home.png",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio.png",
       "category": ["portfolio", "business", "blog"],
       "description": "The website is a personal portfolio. Created by Akram Sakib. The technology used in the website is React, Tailwind CSS, and lots of packages. Here you can browse through my projects, my resume, services, and about me, or you can contact me directly.",
-      "screenshots": ["https://i.ibb.co/Zmn0QT0/Akram-Sakib-Home.png"],
+      "screenshots": ["https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio.png"],
       "tags": ["React", "Tailwind"],
       "projectlink": "https://akram-sakib.netlify.app/",
       "frontendlink": "https://github.com/Akram-Sakib/personal-portfolio",
