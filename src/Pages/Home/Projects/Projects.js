@@ -62,7 +62,7 @@ const Projects = () => {
           // animate={viewDiv && "visible"}
           // variants={AllProjectsAnimation}
 
-          className="grid grid-cols-1 gap-4 md:gap-4 md:grid-cols-1 lg:grid-cols-2 place-items-center"
+          className="grid grid-cols-1 gap-4 md:gap-4 md:grid-cols-1 place-items-center"
         >
           <AnimatePresence>
             {filtered.map((project) => (
