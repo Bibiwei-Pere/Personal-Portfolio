@@ -45,7 +45,7 @@ const Projects = () => {
           Recent
           <span className="text-indigo-600 dark:text-indigo-500"> Works</span>
         </h2>
-        <p className="text-xl text-left dark:text-gray-400">
+        <p className="text-xl text-left lg:text-center dark:text-gray-400">
           Check out some of my recent works built with love, expertise and a touch of magical ingredients.
         </p>
         <div className="text-center">
