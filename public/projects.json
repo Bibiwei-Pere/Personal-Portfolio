@@ -3,10 +3,10 @@
     {
       "_id": "62847a1a0d368dccd75e5154",
       "name": "Bibiwei Pere",
-      "featureimg": "https://i.ibb.co/Zmn0QT0/Akram-Sakib-Home.png",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio.png",
       "category": ["portfolio", "business", "blog"],
       "description": "My personal portfolio website created with React, Tailwind CSS, and lots of packages. Here you can browse through my projects, my resume, services, and about me, or you can contact me directly.",
-      "screenshots": ["https://i.ibb.co/Zmn0QT0/Akram-Sakib-Home.png"],
+      "screenshots": ["https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio.png"],
       "tags": ["React", "Tailwind"],
       "projectlink": "https://bibiweipere.netlify.app/",
       "frontendlink": "https://github.com/Bibiwei-Pere/Personal-Portfolio",
@@ -17,13 +17,11 @@
     {
       "_id": "6284ffeb6c97a9c1a61b910f",
       "name": "Crunches",
-      "featureimg": "https://i.ibb.co/zFVHbkS/Clean-Your-Home-Today.jpg",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/crunches.jpg",
       "category": ["business"],
       "description": "This is a business website for an eatery. Website technology used are HTML, CSS, JavaScript and lots of other animation packages. The site is basically created for customers to see, as well as contact the management for any of the desired item.",
       "screenshots": [
-        "https://i.ibb.co/YtmqnYp/Clean-Your-Home-Today-Service.png",
-        "https://i.ibb.co/VHMfJ3T/Clean-Your-Home-Today-About.png",
-        "https://i.ibb.co/KbxCQXP/Clean-Your-Home-Today-login.png"
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/crunches.jpg",
       ],
       "tags": ["HTML", "CSS", "JavaScript"],
       "projectlink": "https://crunches.netlify.app/",
@@ -36,17 +34,15 @@
       "_id": "62851207dad4af8316365192",
       "order": 3,
       "name": "Ninestudios",
-      "featureimg": "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/image7.jpg",
       "category": ["portfolio"],
       "description": "This is a business website for a photography studio. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, styled-components and many other packages.",
       "screenshots": [
-        "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
-        "https://i.ibb.co/G7Trpyz/Front-End-Developer-Java-Script-Expert-Freelancer-About.png",
-        "https://i.ibb.co/hgZjs4H/Front-End-Developer-Java-Script-Expert-Freelancer-Contact.png"
-      ],
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/image7.jpg",
+         ],
       "tags": ["React", "Sass"],
-      "projectlink": "https://nine-studios.netlify.app/",
-      "frontendlink": "https://github.com/Bibiwei-Pere/Ninestudios",
+      "projectlink": "https://ninestudios.netlify.app/",
+      "frontendlink": "https://github.com/Bibiwei-Pere/NineStudios",
       "backendlink": "#",
       "__v": 0
     },
@@ -54,22 +50,17 @@
       "_id": "628a00500c3f6a878b1dd2d7",
       "order": 6,
       "name": "Fovia Hospital",
-      "featureimg": "https://i.ibb.co/5j3bcdb/Health-Care.jpg",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/hospital.jpg",
       "category": ["business"],
       "description": "This is a hospital website. A lot of doctors work here. Patients can choose their favorite doctor, and read about the doctor. The website is built using React, Bootstrap, MaterialUI, and other tools. People can add Feedback. Admin can control Review, Doctor, Make admin, etc.",
       "screenshots": [
-        "https://i.ibb.co/5j3bcdb/Health-Care.jpg",
-        "https://i.ibb.co/c2qPxH5/Health-Care-feature.jpg",
-        "https://i.ibb.co/VCP5LCY/Health-Care-contact.jpg",
-        "https://i.ibb.co/3f8c2yF/Health-Care-doctors.jpg",
-        "https://i.ibb.co/YpS25cS/Health-Care-appointment.jpg",
-        "https://i.ibb.co/Jcx5N6x/Health-Care-booking-appointment.jpg",
-        "https://i.ibb.co/mG0tVPR/Health-Care-dashboard.jpg"
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/hospital.jpg",
+        
       ],
       "tags": ["React", "MaterialUI"],
-      "projectlink": "https://healthcare-cc85a.web.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/fovia-client-side",
-      "backendlink": "https://github.com/Akram-Sakib/fovia-server-side",
+      "projectlink": "https://hospital.netlify.app/",
+      "frontendlink": "https://github.com/Bibiwei-Pere/Hospital",
+      "backendlink": "https://github.com/Bibiwei-Pere/Hospital",
       "__v": 0
     }
   ],
