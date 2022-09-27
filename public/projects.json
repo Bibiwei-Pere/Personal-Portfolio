@@ -4,10 +4,10 @@
     {
       "_id": "62847a1a0d368dccd75e5154",
       "name": "Bibiwei Pere",
-      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio.png",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio1.png",
       "category": ["portfolio", "business", "blog"],
       "description": "My personal portfolio website created with React, Tailwind CSS, and lots of packages. Here you can browse through my projects, my resume, services, and about me, or you can contact me directly.",
-      "screenshots": ["https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio.png"],
+      "screenshots": ["https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio1.png"],
       "tags": ["React", "Tailwind"],
       "projectlink": "https://bibiweipere.netlify.app/",
       "frontendlink": "https://github.com/Bibiwei-Pere/Personal-Portfolio",
