@@ -35,15 +35,13 @@
       "_id": "62851207dad4af8316365192",
       "order": 3,
       "name": "Crunches",
-      "featureimg": "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
-      "category": ["portfolio"],
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Crunches/main/images/crunches1.jpg",
+      "category": ["business"],
       "description": "It is a portfolio website. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, Sass, and many other animation packages. By the way, this site is not a responsive website.",
       "screenshots": [
-        "https://i.ibb.co/r41JBC2/Front-End-Developer-Java-Script-Expert-Freelancer.png",
-        "https://i.ibb.co/G7Trpyz/Front-End-Developer-Java-Script-Expert-Freelancer-About.png",
-        "https://i.ibb.co/hgZjs4H/Front-End-Developer-Java-Script-Expert-Freelancer-Contact.png"
+        "https://raw.githubusercontent.com/Bibiwei-Pere/Crunches/main/images/crunches1.jpg"
       ],
-      "tags": ["React", "Sass"],
+      "tags": ["html", "css"],
       "projectlink": "https://high-animation-portfolio.netlify.app/",
       "frontendlink": "https://github.com/Akram-Sakib/portfolio-website",
       "backendlink": "#",
