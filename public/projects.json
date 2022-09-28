@@ -18,11 +18,11 @@
     {
       "_id": "6284ffeb6c97a9c1a61b910f",
       "name": "Ninestudios",
-      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/NineStudios/main/src/assets/images/image7.jpg",
+      "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/NineStudios/main/src/assets/images/image8.jpg",
       "category": ["business"],
       "description": "This is a business website for a photography studio. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, styled-components and many other packages.",
       "screenshots": [
-        "https://raw.githubusercontent.com/Bibiwei-Pere/NineStudios/main/src/assets/images/image7.jpg"
+        "https://raw.githubusercontent.com/Bibiwei-Pere/NineStudios/main/src/assets/images/image8.jpg"
       ],
       "tags": ["React", "Styled-components"],
       "projectlink": "https://ninestudios.netlify.app/",
@@ -47,62 +47,7 @@
       "backendlink": "#",
       "__v": 0
     },
-    {
-      "_id": "62851b8adad4af83163651a0",
-      "order": 4,
-      "name": "Red Onion Foods",
-      "featureimg": "https://i.ibb.co/DgZ9VXF/Red-Onion-home.jpg",
-      "category": ["business", "e-commerce"],
-      "description": "The website belongs to a business. The website has a search banner section, filter section, and a why choose us section, as well as a detailed page for every single meal. the tech. React, Firebase, and other tools are used to build the website. The user can watch their favorite food and see the details of the meals after logging in.",
-      "screenshots": [
-        "https://i.ibb.co/m9dRJFQ/Red-Onion-Meal.jpg",
-        "https://i.ibb.co/DL791Ld/Red-Onion-why-choose-us.jpg"
-      ],
-      "tags": ["React", "Sass"],
-      "projectlink": "https://red-onion-c1008.web.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/red-onion",
-      "backendlink": "#",
-      "__v": 0
-    },
-    {
-      "_id": "6285cccce47c31ee1858bba7",
-      "order": 5,
-      "name": "Creative Agency",
-      "featureimg": "https://i.ibb.co/1QFXZxB/Creative-Agency-Home.jpg",
-      "category": ["business"],
-      "description": "It's a business website. There is a search banner section on the website, along with a section about our services, and a section about some of our work and client feedback. The website is built using NextJs, Bootstrap, and other tools.",
-      "screenshots": [
-        "https://i.ibb.co/1QFXZxB/Creative-Agency-Home.jpg",
-        "https://i.ibb.co/DL791Ld/Red-Onion-why-choose-us.jpg"
-      ],
-      "tags": ["NextJs", "Bootstrap"],
-      "projectlink": "https://creative-agency-tan.vercel.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/creative-agency",
-      "backendlink": "#",
-      "__v": 0
-    },
-    {
-      "_id": "628a00500c3f6a878b1dd2d7",
-      "order": 6,
-      "name": "Fovia Hospital",
-      "featureimg": "https://i.ibb.co/5j3bcdb/Health-Care.jpg",
-      "category": ["business"],
-      "description": "This is a hospital website. A lot of doctors work here. Patients can choose their favorite doctor, and read about the doctor. The website is built using React, Bootstrap, MaterialUI, and other tools. People can add Feedback. Admin can control Review, Doctor, Make admin, etc.",
-      "screenshots": [
-        "https://i.ibb.co/5j3bcdb/Health-Care.jpg",
-        "https://i.ibb.co/c2qPxH5/Health-Care-feature.jpg",
-        "https://i.ibb.co/VCP5LCY/Health-Care-contact.jpg",
-        "https://i.ibb.co/3f8c2yF/Health-Care-doctors.jpg",
-        "https://i.ibb.co/YpS25cS/Health-Care-appointment.jpg",
-        "https://i.ibb.co/Jcx5N6x/Health-Care-booking-appointment.jpg",
-        "https://i.ibb.co/mG0tVPR/Health-Care-dashboard.jpg"
-      ],
-      "tags": ["React", "MaterialUI"],
-      "projectlink": "https://healthcare-cc85a.web.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/fovia-client-side",
-      "backendlink": "https://github.com/Akram-Sakib/fovia-server-side",
-      "__v": 0
-    }
+    
   ],
   "message": "All Portfolio Data"
 }
