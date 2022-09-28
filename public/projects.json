@@ -19,7 +19,7 @@
       "_id": "6284ffeb6c97a9c1a61b910f",
       "name": "Ninestudios",
       "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/NineStudios/main/src/assets/images/image8.jpg",
-      "category": ["business"],
+      "category": ["business", "blog"],
       "description": "This is a business website for a photography studio. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, styled-components and many other packages.",
       "screenshots": [
         "https://raw.githubusercontent.com/Bibiwei-Pere/NineStudios/main/src/assets/images/image8.jpg"
@@ -37,13 +37,13 @@
       "name": "Crunches",
       "featureimg": "https://raw.githubusercontent.com/Bibiwei-Pere/Crunches/main/images/crunches1.jpg",
       "category": ["business"],
-      "description": "It is a portfolio website. The site has a homepage, an about page, and a page with a map of contact information on it. This website is built with technologies such as React, Sass, and many other animation packages. By the way, this site is not a responsive website.",
+      "description": "This is a business website for an eatery. Website technology used are HTML, CSS, JavaScript and lots of other animation packages. The site is basically created for customers to see, as well as contact the management for any of the desired item.",
       "screenshots": [
         "https://raw.githubusercontent.com/Bibiwei-Pere/Crunches/main/images/crunches1.jpg"
       ],
       "tags": ["html", "css"],
-      "projectlink": "https://high-animation-portfolio.netlify.app/",
-      "frontendlink": "https://github.com/Akram-Sakib/portfolio-website",
+      "projectlink": "https://crunches.netlify.app/",
+      "frontendlink": "https://github.com/Bibiwei-Pere/Crunches",
       "backendlink": "#",
       "__v": 0
     },
