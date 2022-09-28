@@ -1,4 +1,4 @@
-<img src="" alt="Personal Portfolio" />
+<img src="https://raw.githubusercontent.com/Bibiwei-Pere/Personal-Portfolio/main/src/Assets/Images/portfolio1.png" alt="Personal Portfolio" />
 
 ## Personal Portfolio
 
