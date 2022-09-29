@@ -306,7 +306,7 @@ const Contact = () => {
                 rel="noreferrer"
                 className="dark:text-white dark:bg-slate-700"
                 target="_blank"
-                href="https://www.linkedin.com/in/bibiwei-pere-9a34b024b"
+                href="https://www.linkedin.com/in/Bibiwei-Pere"
               >
                 <i className="fa-brands fa-linkedin"></i>
                     </a>
