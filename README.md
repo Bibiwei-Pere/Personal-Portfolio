@@ -8,10 +8,10 @@
 
 ## How to use
 
-“*” `Fork repository`
-“*” `Clone to vs code`
-“*” Open Command prompt and run `npm install`
-“*” Lastly run `npm start` and enjoy
+1. `Fork repository`
+2. `Clone to vs code`
+3. Open Command prompt and run `npm install`
+4. Lastly run `npm start` and enjoy
 
 ---
 
@@ -39,6 +39,4 @@ Like my works and want to support me?
 
 If you have any feedback, please send an email at bibiweipere@gmail.com
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
