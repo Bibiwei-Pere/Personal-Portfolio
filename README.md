@@ -6,9 +6,12 @@
 
 ---
 
-## Project Description
+## How to use
 
-This is my Personal Portfolio Website created with `react`, `tailwindcss` and lots of other packages. It is a well-designed, `responsive` page with `dark mode` feature.
+“*” `Fork repository`
+“*” `Clone to vs code`
+“*” Open Command prompt and run `npm install`
+“*” Lastly run `npm start` and enjoy
 
 ---
 
@@ -34,7 +37,7 @@ Like my works and want to support me?
 
 ## Feedback
 
-If you have any feedback, please send us an email at bibiweipere@gmail.com
+If you have any feedback, please send an email at bibiweipere@gmail.com
 
 ## License
 
